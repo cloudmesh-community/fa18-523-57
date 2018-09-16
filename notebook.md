@@ -13,4 +13,6 @@
 * learnt different kinds of big data applications
 
 ## Week Fri 09/14/18 - 09/20/18 ##
-* Yet to start
+* created pull requests for four technology summaries assigned.
+* Started going through the Big data applications epub.
+* Installed jabref
