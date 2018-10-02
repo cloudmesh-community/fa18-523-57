@@ -17,7 +17,7 @@
 * Started going through the Big data applications epub.
 * Installed jabref
 
-## Week Fri 09/21/18 - 09/28/18 ##
+## Week Fri 09/21/18 - 09/27/18 ##
 * Attended the lecture discussion
 * Looked into the kinds of projects for my project
 * Started working on tech summaries
