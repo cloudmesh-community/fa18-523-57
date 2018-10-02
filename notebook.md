@@ -19,4 +19,10 @@
 
 ## Week Fri 09/21/18 - 09/28/18 ##
 * Attended the lecture discussion
-* 
+* Looked into the kinds of projects for my project
+* Started working on tech summaries
+
+## Week Fri 09/28/18 - 10/04/18 ##
+* Attended the lecture discussion
+* working on project proposal
+* working on tech summaries
