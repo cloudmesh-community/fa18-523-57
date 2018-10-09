@@ -26,3 +26,9 @@
 * Attended the lecture discussion
 * working on project proposal
 * working on tech summaries
+
+## Week Fri 10/05/18 - 10/11/18 ##
+* Cloned Git repositories
+* Updated Dokku
+* Created Project and paper folders
+* 
