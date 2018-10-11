@@ -31,4 +31,4 @@
 * Cloned Git repositories
 * Updated Dokku
 * Created Project and paper folders
-* Update Dokku.md and fugured out how to update the references and commit changes to my clone.
+* Update Dokku.md and figured out how to update the references and commit changes to my clone.
