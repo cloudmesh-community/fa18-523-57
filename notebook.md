@@ -21,14 +21,22 @@
 * Attended the lecture discussion
 * Looked into the kinds of projects for my project
 * Started working on tech summaries
+* Research into tech summaries topics
 
 ## Week Fri 09/28/18 - 10/04/18 ##
 * Attended the lecture discussion
 * working on project proposal
 * working on tech summaries
+* Project and Paper discussion
+* Attended a TA's office hours on Thursday.
 
 ## Week Fri 10/05/18 - 10/11/18 ##
 * Cloned Git repositories
 * Updated Dokku
 * Created Project and paper folders
-* Update Dokku.md and figured out how to update the references and commit changes to my clone.
+* Project and Paper discussion
+* Attended TA's office hours
+* Update Dokku.md and figured out how to update the references and commit changes to my clone as per instructions in epub.
+* Updated Dokku.md on main repository as per instructions from the professor.
+* Project and Paper discussion
+* 
