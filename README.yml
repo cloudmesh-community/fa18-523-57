@@ -4,3 +4,9 @@ owner:
   lastname: "Rajendran"
   hid: "fa18-523-57"
   community: "e523"
+
+technologies:
+  - url: https://github.com/cloudmesh/technologies/blob/master/chapters/tech/dokku.md
+  - url: https://github.com/cloudmesh/technologies/blob/master/chapters/tech/riak.md
+  - url: https://github.com/cloudmesh/technologies/blob/master/chapters/tech/sql-server.md
+  - url: https://github.com/cloudmesh/technologies/blob/master/chapters/tech/event-hubs.md
