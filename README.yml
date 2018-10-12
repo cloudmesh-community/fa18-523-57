@@ -3,7 +3,7 @@ owner:
   firstname: "Divya"
   lastname: "Rajendran"
   hid: "fa18-523-57"
-  community: "e523"
+  community: "e534"
 technologies:
   - url: https://github.com/cloudmesh/technologies/blob/master/chapters/tech/dokku.md
   - url: https://github.com/cloudmesh/technologies/blob/master/chapters/tech/riak.md
@@ -11,7 +11,7 @@ technologies:
   - url: https://github.com/cloudmesh/technologies/blob/master/chapters/tech/event-hubs.md
 paper:
   - title: PyTorch
-    url: https://github.com/cloudmesh-community/fa18-523-57/blob/master/paper/paper.md
+    url: https://github.com/cloudmesh-community/fa18-523-57/tree/master/paper/paper1/paper1.md
 project: 
   - title: Historical Storm Data Analysis with HBase
     url: https://github.com/cloudmesh-community/fa18-523-57/tree/master/project-report
