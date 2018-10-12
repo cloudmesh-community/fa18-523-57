@@ -37,15 +37,15 @@ We have identified an earlier work on tropical storm data using R by Stoltzman c
 
 ## Visualization Samples
 ### Visualization 1
-![Basic Plot](https://github.com/cloudmesh-community/fa18-523-57/blob/master/project-report/images/Basic_Plot.png “Basic Plot”)
+![Basic Plot](https://github.com/cloudmesh-community/fa18-523-57/blob/master/project-report/images/Basic_Plot.png?raw=true “Basic Plot”)
 ### Visualization 2
-![Category wise Storms](https://github.com/cloudmesh-community/fa18-523-57/blob/master/project-report/images/Storms_per_category_plot.png “Category wise Storms”)
+![Category wise Storms](https://github.com/cloudmesh-community/fa18-523-57/blob/master/project-report/images/Storms_per_category_plot.png?raw=true “Category wise Storms”)
 ### Visualization 3
-![Heat Map](https://github.com/cloudmesh-community/fa18-523-57/blob/master/project-report/images/Heat_map_plot.png “Heat Map of storm concentration”)
+![Heat Map](https://github.com/cloudmesh-community/fa18-523-57/blob/master/project-report/images/Heat_map_plot.png?raw=true “Heat Map of storm concentration”)
 ### Visualization 4
-![Correlation Plot](https://github.com/cloudmesh-community/fa18-523-57/blob/master/project-report/images/relationship_plot.png “Correlation between attributes”)
+![Correlation Plot](https://github.com/cloudmesh-community/fa18-523-57/blob/master/project-report/images/relationship_plot.png?raw=true “Correlation between attributes”)
 ### Visualization 5
-![Geographic Plot](https://github.com/cloudmesh-community/fa18-523-57/blob/master/project-report/images/Geographic_Plot.png “Geographic Plot”)
+![Geographic Plot](https://github.com/cloudmesh-community/fa18-523-57/blob/master/project-report/images/Geographic_Plot.png?raw=true“Geographic Plot”)
 
 ## Summary
 This section will contain the inference and conclusions we draw after visualizing the dataset used in this project
