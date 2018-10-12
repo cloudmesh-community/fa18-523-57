@@ -11,9 +11,9 @@ technologies:
   - url: https://github.com/cloudmesh/technologies/blob/master/chapters/tech/event-hubs.md
 paper:
   - title: PyTorch
-    url: https://github.com/cloudmesh-community/fa18-523-57/tree/master/paper/paper1/paper1.md
+    url: https://github.com/cloudmesh-community/fa18-523-57/tree/master/paper/paper1/
 project: 
   - title: Historical Storm Data Analysis with HBase
-    url: https://github.com/cloudmesh-community/fa18-523-57/tree/master/project-report/report.md
+    url: https://github.com/cloudmesh-community/fa18-523-57/tree/master/project-report/
     group: fa18-523-57
     code: https://github.com/cloudmesh-community/fa18-523-57/tree/master/project-report/project-code
