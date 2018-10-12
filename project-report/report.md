@@ -2,14 +2,17 @@
 ## authors: Divya Rajendran, Pramod Duvvuri
 
 ## Abstract
+The decisions people make these days are all data driven. The amount of data we collect has increased exponentially and this makes it harder to visualize and understand. We can overcome this hurdle by sampling or visualizing subsets of the data. The only thing one should remember is to pick a good sample of the data or to repeat the process of sampling and visualizing the data subset. In this project, we aim to visualize the historical storm dataset and make inferences from our visualizations.
 
+## Keywords
+fa18-523-57, fa18-523-58, E534, Data Visualization, Big Data Technologies, HBase, Python
 
-## INTRODUCTION ##
+## Introduction
 
 With the disastrous effects of the increasing number of storms all around the world, we thought of taking storm dataset for entire Asia Pacific region and visually analyze the effects of various variables on the storms. We want to check any patterns in the storm data and visualize them geographically so that it might help us to make useful inferences on the storm data. We have identified a data set on data.world[@fa18-523-57-DataSet] and we aim to identify the various correlations among the attributes and understand if they can help explain the change in frequency of the storms. Data World is a community where we find open datasets from various organizations containing varying data attributes according to the need. The data is saved in a graph database HBase. The output of our visualization is shown on jupyter notebook.
 
 
-## IMPLEMENTATION ##
+## Implementation
 
 ### Data set ### 
 The data set for the various storms in Asia Pacific region for the years between 1956 and 2017. We would choose an initial subset of data to visualize locally and then implement the same visualizations on the entire data. The data set contains attributes like region, latitude, longitude, storm number, name, date and time, speed, pressure, category type.
@@ -43,6 +46,16 @@ We have identified an earlier work on tropical storm data using R by Stoltzman c
 ### Visualization 4 ###
 ![alt text](https://www.stoltzmaniac.com/wp-content/uploads/2017/09/unnamed-chunk-11-1-2.png “Correlation between attributes”)
 
+## Summary
+This section will contain the inference and conclusions we draw after visualizing the dataset used in this project
 
-### Conclusions ###
-TBD
+## Future Work
+In this project, our main aim was to visualize the dataset. After visualizing and making inferences, we would like to propose a model that uses machine learning pattern in our data. We hope to use unsupervised machine learning algorithms to find clusters in our data. This might help us identify further patterns in the data that could not have been possible with just plain visualization of the data. The main problem that we have identified in building such a model is the availability of resources required to run the algorithm without any interruption. Using a local computer resources for running such a model would not be feasible. Hence, we hope to deploy such a model in the cloud and utilize its power and resources for machine learning.
+
+## Acknowledgements
+The authors would like to thank Dr. Gregor von Laszewski for giving the opportunity to work on this project and for providing valuable feedback during the duration of our project. The authors would also like to thank the associate instructors of this class for their help and prompt responses to our questions on Piazza.
+
+## Bibliography
+
+## Work Breakdown
+The authors Divya Rajendran and Pramod Duvvuri have contributed equally in preparing this draft. We shall co-ordinate to equally divide the work that is required to complete the project and the final report before the deadline in December, 2018. Our contributions towards the completion of the project shall be updated in our respective notebook markdown files in our respective git repositories and a summary of our individual contributions shall be added in the final report.
