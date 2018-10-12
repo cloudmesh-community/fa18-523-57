@@ -1,4 +1,4 @@
-## Paper - PyTorch ##
+## PAPER - PYTORCH ##
 
 
 ### ABSTRACT: ###
@@ -20,7 +20,7 @@ Torch is wrapped in Lua a programming language which is written in C and runs ev
 Even though PyTorch is still in its early years, many developers and data scientists are adapting this framework to utilize the enormous computational capacity it offers. Due to its ease of use many new developers prefer PyTorch. It also avoids using static graphs which are used in TensorFlow and instead builds graphs dynamically using a much faster implementation of reverse mode tape-based auto differentiation. It seamlessly integrates Python code and its related packages into PyTorch and builds all of its functionality in Python making Python an integral part of its design and thus becoming more popular with early developers [@fa18-523-57-PyTorch-Started].
 
 
-### Implementation: ###
+### IMPLEMENTATION: ###
 
 Will be added soon.
 
@@ -34,7 +34,7 @@ PyTorch has several inbuilt data structures which are widely used for deep learn
 2.	Computation Graph: In training a neural network, we often have to compute gradients for every combination of weights and bias, which further needs to be updated using gradient descent algorithms, here we utilize graphs to effectively compute the gradients for every combination sequentially and train the neural network in the process. This graph applies chain rule to compute all the gradients utilizing back propagation method.
 
 
-## Advantages of PyTorch: ## 
+## ADVANTAGES of PYTORCH: ## 
 
 1.	Ramp Up Time for code execution for PyTorch is much faster than its competitor TensorFlow, in that it uses dynamic creation of graphs rather than the static ones in TensorFlow. Here, the compilation time for the code is much smaller for PyTorch and the graph is built during run time, making it significantly faster than TensorFlow [@fa18-523-57-PyTorch-tensorflow]. 
 
