@@ -1,4 +1,4 @@
-## Project Report - Historical Storm Data Analysis with HBase ##
+# Historical Storm Data Analysis with HBase #
 
 * This project is related to Big Data. Make sure the project is reproducible and includes a benchmark. For more details see the handbook. 
 
