@@ -1,5 +1,6 @@
 # Historical Storm Data Analysis with HBase (Draft)
-## authors: Divya Rajendran, Pramod Duvvuri
+## Authors: Divya Rajendran, Pramod Duvvuri
+### October 12, 2018
 
 ## Abstract
 The decisions people make these days are all data driven. The amount of data we collect has increased exponentially and this makes it harder to visualize and understand. We can overcome this hurdle by sampling or visualizing subsets of the data. The only thing one should remember is to pick a good sample of the data or to repeat the process of sampling and visualizing the data subset. In this project, we aim to visualize the historical storm dataset and make inferences from our visualizations.
@@ -34,7 +35,7 @@ We have identified an earlier work on tropical storm data using R by Stoltzman c
 5.	Altair is a statistically aimed visualization library which produces output plots which are easily shown on a website [@fa18-523-57-Altair].
 6.	D3.js is a visualization library based on Javascript which is vastlyy implemented per SVG and HTML formats [@fa18-523-57-D3js].
 
-## Visualization samples
+## Visualization Samples
 ### Visualization 1
 ![alt text]( https://github.com/cloudmesh-community/fa18-523-57/tree/master/project-report/images/Basic_Plot.png “Basic Plot”)
 ### Visualization 2
