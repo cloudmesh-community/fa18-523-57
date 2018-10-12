@@ -1,5 +1,4 @@
-# title: "Historical Storm Data Analysis with HBase"
-## date: "October 2018"
-## authors: "Divya Rajendran, Indiana University", "Pramod Duvvuri, Indiana University"
+# Historical Storm Data Analysis with HBase (Draft)
+## authors: Divya Rajendran, Pramod Duvvuri
 
 ## Abstract
