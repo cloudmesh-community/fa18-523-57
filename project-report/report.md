@@ -1,8 +1,8 @@
-# Historical Storm Data Analysis with HBase #
+--
+title: "Historical Storm Data Analysis with HBase"
+date: "October 2018"
+author: "Divya Rajendran, Indiana University"
+author: "Pramod Duvvuri, Indiana University"
+---
 
-* This project is related to Big Data. Make sure the project is reproducible and includes a benchmark. For more details see the handbook. 
-
-* To see example projects, please see the sections Example Artifacts in the lecture notes.
-
-* The report is written in markdown, references are managed in bibtex
-
+## Abstract
