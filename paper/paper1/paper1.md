@@ -1,17 +1,16 @@
-## PAPER - PYTORCH ##
+# PAPER - PYTORCH #
 
-
-### ABSTRACT: ###
+## ABSTRACT: ##
 
 Even though PyTorch is still in its early years, many developers and data scientists are adapting this framework to utilize the enormous computational capacity it offers. Due to its ease of use many new developers prefer PyTorch. It also avoids using static graphs which are used in TensorFlow and instead builds graphs dynamically using a much faster implementation of reverse mode tape-based auto differentiation. It seamlessly integrates Python code and its related packages into PyTorch and builds all of its functionality in Python making Python an integral part of its design and thus becoming more popular with early developers.
 
 
-### KEYWORDS: ###
+## KEYWORDS: ##
 
 Hid fa18-523-57, Machine Learning, Deep Learning, Deep Neural Nets, NLP
 
 
-### INTRODUCTION : ###
+## INTRODUCTION : ##
 
 Before describing what PyTorch is and what it does, it is good to know about Torch and its capabilities. Torch was initially created for academic purposes and is extensively used for scientific computing in deep learning and machine learning. Algorithms in Deep Learning and neural networks compute the peaks and descents of loss functions without using any pre-existing functions on gradient descent[@fa18-523-57-PyTorch]. To fasten the computation of the above values Python uses technique called tape-based auto differentiation which basically  works like a tape recorder. This technique records the gradients computed and replays them in a reverse order, which further led to the creation of Torch which extensively utilized the Autograd package in Python. Many have used this library as an alternative to Numpy as it has taken advantage of GPU acceleration for faster computing[@fa18-523-57-PyTorch-Tensor].
 
@@ -20,7 +19,7 @@ Torch is wrapped in Lua a programming language which is written in C and runs ev
 Even though PyTorch is still in its early years, many developers and data scientists are adapting this framework to utilize the enormous computational capacity it offers. Due to its ease of use many new developers prefer PyTorch. It also avoids using static graphs which are used in TensorFlow and instead builds graphs dynamically using a much faster implementation of reverse mode tape-based auto differentiation. It seamlessly integrates Python code and its related packages into PyTorch and builds all of its functionality in Python making Python an integral part of its design and thus becoming more popular with early developers [@fa18-523-57-PyTorch-Started].
 
 
-### IMPLEMENTATION: ###
+## IMPLEMENTATION: ##
 
 Will be added soon.
 
