@@ -14,6 +14,6 @@ paper:
     url: https://github.com/cloudmesh-community/fa18-523-57/tree/master/paper/paper1/paper1.md
 project: 
   - title: Historical Storm Data Analysis with HBase
-    url: https://github.com/cloudmesh-community/fa18-523-57/tree/master/project-report
+    url: https://github.com/cloudmesh-community/fa18-523-57/tree/master/project-report/report.md
     group: fa18-523-57
     code: https://github.com/cloudmesh-community/fa18-523-57/tree/master/project-report/project-code
