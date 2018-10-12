@@ -40,3 +40,7 @@
 * Updated Dokku.md on main repository as per instructions from the professor.
 * Project and Paper discussion
 * attended TA's office hours
+
+## Week Fri 10/12/18 - 10/18/18 ##
+* Attended Lecture discussion
+* Updated readme.yml to contain technology summaries
