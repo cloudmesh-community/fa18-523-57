@@ -1,8 +1,4 @@
-## Project Report - Historical Storm Data Analysis with HBase ##
+# Historical Storm Data Analysis with HBase (Draft)
+## authors: Divya Rajendran, Pramod Duvvuri
 
-* This project is related to Big Data. Make sure the project is reproducible and includes a benchmark. For more details see the handbook. 
-
-* To see example projects, please see the sections Example Artifacts in the lecture notes.
-
-* The report is written in markdown, references are managed in bibtex
-
+## Abstract

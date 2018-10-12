@@ -1,4 +1,4 @@
-# PAPER - PYTORCH #
+# PYTORCH #
 
 ## ABSTRACT: ##
 
