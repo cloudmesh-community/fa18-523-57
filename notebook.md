@@ -39,4 +39,4 @@
 * Update Dokku.md and figured out how to update the references and commit changes to my clone as per instructions in epub.
 * Updated Dokku.md on main repository as per instructions from the professor.
 * Project and Paper discussion
-* 
+* attended TA's office hours
