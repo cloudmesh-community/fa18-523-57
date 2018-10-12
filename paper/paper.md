@@ -1,4 +1,4 @@
-## Paper - PyTorch##
+## Paper - PyTorch ##
 
 * A technology paper is a summary paper about a technology, application, or topic that is not yet covered in other technology papers delivered by previous students of this class. A review paper is a paper that reviews a specific topic related to this class.
 
