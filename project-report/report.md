@@ -37,20 +37,15 @@ We have identified an earlier work on tropical storm data using R by Stoltzman c
 
 ## Visualization Samples
 ### Visualization 1
-<img src="https://github.com/cloudmesh-community/fa18-523-57/blob/master/project-report/images/Basic_Plot.png" alt=“Basic Plot”>
-![Basic Plot](https://github.com/cloudmesh-community/fa18-523-57/blob/master/project-report/images/Basic_Plot.png?raw=true “Basic Plot”)
+<img src="https://github.com/cloudmesh-community/fa18-523-57/blob/master/project-report/images/Basic_Plot.png?raw=true" alt=“Basic Plot”>
 ### Visualization 2
-<img src="https://github.com/cloudmesh-community/fa18-523-57/blob/master/project-report/images/Storms_per_category_plot.png" alt=“Category wise Storms”>
-![Category wise Storms](https://github.com/cloudmesh-community/fa18-523-57/blob/master/project-report/images/Storms_per_category_plot.png?raw=true “Category wise Storms”)
+<img src="https://github.com/cloudmesh-community/fa18-523-57/blob/master/project-report/images/Storms_per_category_plot.png?raw=true" alt=“Category wise Storms”>
 ### Visualization 3
-<img src="https://github.com/cloudmesh-community/fa18-523-57/blob/master/project-report/images/Heat_map_plot.png" alt=“Heat Map of storm concentration”>
-![Heat Map](https://github.com/cloudmesh-community/fa18-523-57/blob/master/project-report/images/Heat_map_plot.png?raw=true “Heat Map of storm concentration”)
+<img src="https://github.com/cloudmesh-community/fa18-523-57/blob/master/project-report/images/Heat_map_plot.png?raw=true" alt=“Heat Map of storm concentration”>
 ### Visualization 4
-<img src="https://github.com/cloudmesh-community/fa18-523-57/blob/master/project-report/images/relationship_plot.png" alt=“Correlation between attributes”>
-![Correlation Plot](https://github.com/cloudmesh-community/fa18-523-57/blob/master/project-report/images/relationship_plot.png?raw=true “Correlation between attributes”)
+<img src="https://github.com/cloudmesh-community/fa18-523-57/blob/master/project-report/images/relationship_plot.png?raw=true" alt=“Correlation between attributes”>
 ### Visualization 5
-<img src="https://github.com/cloudmesh-community/fa18-523-57/blob/master/project-report/images/Geographic_Plot.png" alt=“Geographic_Plot”>
-![Geographic Plot](https://github.com/cloudmesh-community/fa18-523-57/blob/master/project-report/images/Geographic_Plot.png?raw=true “Geographic Plot”)
+<img src="https://github.com/cloudmesh-community/fa18-523-57/blob/master/project-report/images/Geographic_Plot.png?raw=true" alt=“Geographic_Plot”>
 
 ## Summary
 This section will contain the inference and conclusions we draw after visualizing the dataset used in this project
