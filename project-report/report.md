@@ -1,4 +1,4 @@
-# Historical Storm Data Analysis with HBase (Draft)
+# Historical Storm Data Analysis with HBase
 
 ## Authors: Divya Rajendran, Pramod Duvvuri
 
