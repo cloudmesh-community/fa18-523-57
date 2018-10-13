@@ -1,16 +1,19 @@
-# Historical Storm Data Analysis with HBase
+# Historical Storm Data Analysis with HBase :hand: fa18-523-57, fa18-523-58
 
-## Authors: Divya Rajendran, Pramod Duvvuri
+Divya Rajendran, Pramod Duvvuri
 
-### October 12, 2018
+October 13, 2018
+
+---
+
+Keywords: E534, Data Visualization, Big Data Technologies, HBase, Python
+
+---
 
 ## Abstract
 
 The decisions people make these days are all data driven. The amount of data we collect has increased exponentially and this makes it harder to visualize and understand. We can overcome this hurdle by sampling or visualizing subsets of the data. The only thing one should remember is to pick a good sample of the data or to repeat the process of sampling and visualizing the data subset. In this project, we aim to visualize the historical storm dataset and make inferences from our visualizations.
 
-## Keywords
-
-fa18-523-57, fa18-523-58, E534, Data Visualization, Big Data Technologies, HBase, Python
 
 ## Introduction
 
@@ -53,23 +56,23 @@ We have identified an earlier work on tropical storm data using R by Stoltzman c
 
 ### Visualization 1
 
-<img src="https://github.com/cloudmesh-community/fa18-523-57/blob/master/project-report/images/Basic_Plot.png?raw=true" alt=“Basic_Plot”>
+![Basic_Plot](images/Basic_Plot.png)
 
 ### Visualization 2
 
-<img src="https://github.com/cloudmesh-community/fa18-523-57/blob/master/project-report/images/Storms_per_category_plot.png?raw=true" alt=“Category_wise_Storms”>
+![Category_wise_Storms](images/Storms_per_category_plot.png)
 
 ### Visualization 3
 
-<img src="https://github.com/cloudmesh-community/fa18-523-57/blob/master/project-report/images/Heat_map_plot.png?raw=true" alt=“Heat_Map_of_storm_concentration”>
+![Heat_Map_of_storm_concentration](images/Heat_map_plot.png)
 
 ### Visualization 4
 
-<img src="https://github.com/cloudmesh-community/fa18-523-57/blob/master/project-report/images/relationship_plot.png?raw=true" alt=“Correlation_between_attributes”>
+![Correlation_between_attributes](images/relationship_plot.png)
 
 ### Visualization 5
 
-<img src="https://github.com/cloudmesh-community/fa18-523-57/blob/master/project-report/images/Geographic_Plot.png?raw=true" alt=“Geographic_Plot”>
+![Geographic](images/Geographic_Plot.png)
 
 ## Summary
 
