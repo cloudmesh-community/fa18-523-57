@@ -4,6 +4,8 @@ date: "October 12, 2018"
 author: "Pramod Duvvuri, Indiana University"
 ---
 
+:o: this is a technology summary, please contact Gregor
+
 ## Abstract
 The amount of data generated has increased exponentially and so did the advancement of computing power, both these have led us to the era of deep learning. This paper aims to summarize a deep learning framework knows as Caffe [@jia2014caffe] which was developed by a post-doc named Yangqing Jia at University of California, Berkeley in 2013. It is written in C++ and is known for it fast execution and it's Python interface allows it to be used by the vast majority of Python users. The framework has then been open-sourced, allowing many users to use, develop and contribute to improve the framework.
 
