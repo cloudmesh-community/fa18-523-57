@@ -44,3 +44,14 @@
 ## Week Fri 10/12/18 - 10/18/18 ##
 * Attended Lecture discussion
 * Updated readme.yml to contain technology summaries
+* Updated technology summaries
+* updated the project report and bibs
+* updated paper report
+* updated readme.yml to contain paper and project
+
+## Week Fri 10/19/18 - 10/25/18 ##
+* Attended Lecture discussion
+* Updated readme.yml to contain semester and re-formated the paper and project section
+* Updated the paper folder to contain only a single entry.
+* Fixed Dokku.md and checked if bib entries were working.
+* re-forked technologies to start making proper commits using command line.
