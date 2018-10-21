@@ -4,18 +4,19 @@ owner:
   lastname: "Rajendran"
   hid: "fa18-523-57"
   community: "e534"
+  semester: "fa18"
 technologies:
   - url: https://github.com/cloudmesh/technologies/blob/master/chapters/tech/dokku.md
   - url: https://github.com/cloudmesh/technologies/blob/master/chapters/tech/riak.md
   - url: https://github.com/cloudmesh/technologies/blob/master/chapters/tech/sql-server.md
   - url: https://github.com/cloudmesh/technologies/blob/master/chapters/tech/event-hubs.md
 paper:
-  - title: PyTorch
-    keyword: PyTorch
+  - keyword: PyTorch
+    title: PyTorch
     url: https://github.com/cloudmesh-community/fa18-523-57/tree/master/paper/
 project: 
-  - title: Historical Storm Data Analysis with HBase
-    keyword: Storm HBase
+  - keyword: Storm HBase
+    title: Historical Storm Data Analysis with HBase
     url: https://github.com/cloudmesh-community/fa18-523-57/tree/master/project-report/
     group: fa18-523-57
     code: https://github.com/cloudmesh-community/fa18-523-57/tree/master/project-report/project-code
