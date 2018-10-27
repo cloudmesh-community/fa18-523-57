@@ -56,23 +56,33 @@ We have identified an earlier work on tropical storm data using R by Stoltzman c
 
 ### Visualization 1
 
-![Basic_Plot](images/Basic_Plot.png)
+Image here
+
+<!---  ![Basic_Plot](images/Basic_Plot.png) -->
 
 ### Visualization 2
 
-![Category_wise_Storms](images/Storms_per_category_plot.png)
+Image here
+
+<!---  ![Category_wise_Storms](images/Storms_per_category_plot.png) -->
 
 ### Visualization 3
 
-![Heat_Map_of_storm_concentration](images/Heat_map_plot.png)
+Image here
+
+<!---  ![Heat_Map_of_storm_concentration](images/Heat_map_plot.png) -->
 
 ### Visualization 4
 
-![Correlation_between_attributes](images/relationship_plot.png)
+Image here
+
+<!--- ![Correlation_between_attributes](images/relationship_plot.png) -->
 
 ### Visualization 5
 
-![Geographic](images/Geographic_Plot.png)
+Image here
+
+<!--- ![Geographic](images/Geographic_Plot.png) -->
 
 ## Summary
 
