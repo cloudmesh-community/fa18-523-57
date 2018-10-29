@@ -6,11 +6,11 @@
 
 Even though PyTorch is still in its early years, many developers and data scientists are adapting this framework to utilize the enormous computational capacity it offers. Due to its ease of use many new developers prefer PyTorch. It also avoids using static graphs which are used in TensorFlow and instead builds graphs dynamically using a much faster implementation of reverse mode tape-based auto differentiation. It seamlessly integrates Python code and its related packages into PyTorch and builds all of its functionality in Python making Python an integral part of its design and thus becoming more popular with early developers.
 
+---
 
-## Keywords
+Keywords: Hid fa18-523-57, Machine Learning, Deep Learning, Deep Neural Nets, NLP
 
-Hid fa18-523-57, Machine Learning, Deep Learning, Deep Neural Nets, NLP
-
+---
 
 ## Introduction
 
