@@ -1,15 +1,21 @@
 # PyTorch :hand: fa18-523-57
 
+| Divya Rajendran
+| divrajen@iu.edu
+| Indiana University
+| hid: fa18-523-57
+| github: [:cloud:](https://github.com/cloudmesh-community/fa18-523-57/tree/master/paper)
+
+---
+
+Keywords: Hid fa18-523-57, Machine Learning, Deep Learning, Deep Neural Nets, Python
+
+---
 
 ## Abstract
 
 Even though PyTorch is still in its early years, many developers and data scientists are adapting this framework to utilize the enormous computational capacity it offers. Due to its ease of use many new developers prefer PyTorch. It also avoids using static graphs which are used in TensorFlow and instead builds graphs dynamically using a much faster implementation of reverse mode tape-based auto differentiation. It seamlessly integrates Python code and its related packages into PyTorch and builds all of its functionality in Python making Python an integral part of its design and thus becoming more popular with early developers.
 
----
-
-Keywords: Hid fa18-523-57, Machine Learning, Deep Learning, Deep Neural Nets, NLP
-
----
 
 ## Introduction
 
