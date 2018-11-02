@@ -55,3 +55,14 @@
 * Updated the paper folder to contain only a single entry.
 * Fixed Dokku.md and checked if bib entries were working.
 * re-forked technologies to start making proper commits using command line.
+
+## Week Fri 10/26/18 - 11/01/18 ##
+* Viewed the course material on Big data application for GitHub overview and Scikit-learn material.
+* Updated references section in bib tex file for summariess.
+* Updated all summaries to refelct updated references.
+* Made changes to summaries as per TA's comments.
+* Looked into our project data, will have to start exploring data for basic visualizations.
+
+## Week Fri 11/02/18 - 11/08/18 ##
+* Attended Lecture Discussion
+* 
