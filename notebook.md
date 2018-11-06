@@ -65,4 +65,5 @@
 
 ## Week Fri 11/02/18 - 11/08/18 ##
 * Attended Lecture Discussion
-* 
+* Updated/added www- to all references with misc bib entries.
+* Data exploration for the project
