@@ -6,6 +6,9 @@
 | hid: fa18-523-57
 | github: [:cloud:](https://github.com/cloudmesh-community/fa18-523-57/tree/master/paper)
 
+* :o: it is unclear from the abstract what it is
+* :o: this is a draft and therefore the review was halted
+
 ---
 
 Keywords: Hid fa18-523-57, Machine Learning, Deep Learning, Deep Neural Nets, Python
