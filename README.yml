@@ -13,7 +13,7 @@ technologies:
 paper:
   - keyword: PyTorch
     title: PyTorch
-    url: https://github.com/cloudmesh-community/fa18-523-57/tree/master/paper/
+    url: https://github.com/cloudmesh-community/fa18-523-57/blob/master/paper/paper.md
 project: 
   - keyword: Storm HBase
     title: Historical Storm Data Analysis with HBase
