@@ -62,7 +62,7 @@ We have identified an earlier work on tropical storm data using R by Stoltzman c
 
 Image here
 
-<!---  ![Basic_Plot](images/Basic_Plot.png) -->
+![Basic_Plot:o: not using labels check samples](images/Basic_Plot.png)
 
 ### Visualization 2
 
