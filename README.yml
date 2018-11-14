@@ -5,6 +5,7 @@ owner:
   hid: "fa18-523-57"
   community: "e534"
   semester: "fa18"
+  profile: "https://github.com/rdivyajd"
 technologies:
   - url: https://github.com/cloudmesh/technologies/blob/master/chapters/tech/dokku.md
   - url: https://github.com/cloudmesh/technologies/blob/master/chapters/tech/riak.md
