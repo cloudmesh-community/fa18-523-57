@@ -62,9 +62,13 @@ In :o: terminal or command prompt, enter the below line to install the PyTorch l
 pip install torch torchvision
 ```
 
+:o: Remove the image and replace with ascii text
+
 ![installation](images/install.png){fig:installation}
 
 Sample tensor initialization can be seen below:
+
+:o: Remove the image and replace with ascii text
 
 ![installation](images/Initialization.png){fig:Initialization}
 
