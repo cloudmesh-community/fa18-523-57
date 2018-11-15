@@ -1,4 +1,4 @@
-# PyTorch :hand: fa18-523-57
+# PyTorch :hand: :exclamation: fa18-523-57
 
 | Divya Rajendran
 | divrajen@iu.edu
@@ -6,6 +6,7 @@
 | hid: fa18-523-57
 | github: [:cloud:](https://github.com/cloudmesh-community/fa18-523-57/tree/master/paper)
 
+* do not remove the :exclamation: this is for the instructors a sign that we reviewed 
 * :o: language can be improved. Sentences are incomplete and words are missing
 * :o: not following markdown or FAQs we posted on how to use urls so i correctd this
 
