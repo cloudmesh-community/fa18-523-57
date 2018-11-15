@@ -127,8 +127,7 @@ In terminal or command prompt, enter the below line to install the PyTorch libra
 
 pip install torch torchvision
 
-![installation][images/install.png]{#fig:installation}
-
+![installation](images/install.png){#fig:installation}
 
 ## Conclusion
 
