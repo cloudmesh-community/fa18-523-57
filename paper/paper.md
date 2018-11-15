@@ -22,8 +22,8 @@ allows us to achieve a greater flexibility, capacity and computation power. To m
 easier for the deep learning implementors, several frameworks which have the deep learning 
 algorithms, in a less complex and easy to use format. PyTorch is one such deep learning 
 framework which is in popular use due to its core language being python. This paper aims 
-to introduce PyTorch and to enable users to install and start using PyTorch to work on some 
-basic deep learning models or algorithms.
+to introduce PyTorch and to enable users to understand the role PyTorch plays in faster 
+implementation of Deep Learning algorithms.
 
 
 ## Introduction
@@ -77,6 +77,27 @@ to calculate extremely expensive code snippets to run in real time making use of
 [@fa18-523-57-PyTorch-Tensor]
 
 
+## Getting Started
+
+If you have never used PyTorch before you need to install PyTorch, check "https://pytorch.org" 
+for more instructions on the system requirements and different ways to install PyTorch. 
+[@fa18-523-57-PyTorch-installation]
+
+In terminal or command prompt, enter the below line to install the PyTorch library.
+
+pip install torch torchvision
+
+![installation](images/install.png){fig:installation}
+
+Sample tensor initialization can be seen below:
+
+![installation](images/Initialization.png){fig:Initialization}
+
+For step by step instructions for using PyTorch can be found at "https://pytorch.org/tutorials/index.html" 
+There are several tutorials to use PyTorch on Deep Learning Algorithms with downloadable code, 
+which can be used to learn how to use the library.
+
+
 ## Operations Using PyTorch
 
 PyTorch has several inbuilt data structures which are widely used for deep learning and 
@@ -94,7 +115,28 @@ deep neural nets algorithms [@fa18-523-57-PyTorch-deep-learning].
 	propagation method.
 
 
-## Advantages of PyTorch
+## Implementation
+
+When using PyTorch, we need to import it as is seen in the Installation image. To use the 
+auto differentiation technique we discussed above, we use the library *torch.autograd*. Using 
+this library we can compute the gradients for the peaks and troughs of the loss function  
+[@fa18-523-57-PyTorch-modules]. We use this library to train weights for neural networks 
+through a process called backward pass.
+
+To build neural networks we use a library called *torch.nn* in torch. We use the function 
+*torch.nn.Sequential* to initialise a model with a linear stack of layers and use *torch.nn.MSELoss()* 
+to initialise the loss function, which measures the mean squared error between the input 
+and ouput layers [@fa18-523-57-PyTorch-modules]. Using the *torch.optim* package we can define our 
+optimizer which updates the weights. This package abstracts the optimization algorithm and provides 
+pre-existing optimization algorithms like Adam, AdaGrad and so on [@fa18-523-57-PyTorch-modules]. 
+
+For greater detail version of the implementation please follow the step by step tutorial at 
+"https://github.com/yunjey/pytorch-tutorial". It has a tutorial for three levels of developers, 
+a beginner level, an intermediate level and an advanced level, which is extremely helpful for new 
+developers.
+
+
+## Advantages of PyTorch Over Existing Frameworks
 
 1.	Ramp Up Time for code execution for PyTorch is much faster than its competitor 
 	TensorFlow, in that it uses dynamic creation of graphs rather than the static ones in 
@@ -115,19 +157,7 @@ deep neural nets algorithms [@fa18-523-57-PyTorch-deep-learning].
 5.	PyTorch also avoids using static graphs which are used in TensorFlow and instead builds 
 	graphs dynamically using a much faster implementation of reverse mode tape-based auto 
 	differentiation. [@fa18-523-57-PyTorch-Started]
-	
-	
-## Implementation
 
-If you have never used PyTorch before you need to install PyTorch, check https://pytorch.org 
-for more instructions on the system requirements and different ways to install PyTorch. 
-[@fa18-523-57-PyTorch-installation]
-
-In terminal or command prompt, enter the below line to install the PyTorch library.
-
-pip install torch torchvision
-
-![installation](images/install.png){#fig:installation}
 
 ## Conclusion
 
