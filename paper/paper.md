@@ -200,7 +200,7 @@ functions.
 Let us see an example of how to use these above functions to train a neural
 network as below.
 
-##### Define the neural network
+### Define the neural network
 ```python
 ###########################################################################
 #    Title: Classifying Text with Neural Networks and Pytorch
@@ -244,7 +244,7 @@ computation. To calculate the loss we use a function called
 *torch.nn.CrossEntropyLoss*. Below is a sample code on constructing the
 optimizer [@fa18-523-57-PyTorch-Code].
 
-##### Constructing optimizer
+### Constructing optimizer
 ```python
 net = OurNet(input_size, hidden_size, num_classes)
 optimizer = torch.optim.Adam(net.parameters(), lr=learning_rate)
