@@ -67,3 +67,17 @@
 * Attended Lecture Discussion
 * Updated/added www- to all references with misc bib entries.
 * Data exploration for the project
+
+## Week Fri 11/09/18 - 11/15/18 ##
+* Attended Lecture Discussion
+* Updated paper and understood what changes need to be done.
+* Data exploration for the project and initial visualizations
+
+## Week Fri 11/16/18 - 11/22/18 ##
+* Attended Lecture Discussion
+* Updated paper to the proper format.
+* Data visualizations for project
+* Thanksgiving week
+
+## Week Fri 11/23/18 - 11/29/18 ##
+* Working on project
