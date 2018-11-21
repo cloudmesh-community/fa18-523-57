@@ -57,8 +57,10 @@ the loss function and calculate the gradients for loss function
 Before we start using PyTorch, we need to have a background or working knowledge
 on the below concepts.
 
-Keywords: #Deep Learning, Neural Networks, Tensors, Computational Graph, Autograd
-					, Auto Differentiation, Backpropagation
+Keywords: [Deep Learning](#Deep Learning), [Neural Networks](#Neural Networks),
+					[Tensors](#Tensors), [Computational Graph](#Computational Graph),
+					[Autograd](#Autograd), [Auto Differentiation](#Auto Differentiation),
+					[Backpropagation](#Backpropagation)
 
 ### Deep Learning
 
@@ -69,7 +71,7 @@ which has been vastly used in different fields of computer vision, audio and
 video signal processing, natural language and speech recognition and such
 [@fa18-523-57-Deep-Learning-wiki].
 
-### Neural Networks {#Neural Networks}
+### Neural Networks
 
 Neural Nets [@fa18-523-57-Neural-Nets] is a collection of various connected
 nodes called neurons mimicking the neuron structure in the human brain. Each
@@ -81,7 +83,7 @@ transforms the input in each layer and this entire process is repeated a huge
 number of times till the error calculated is diminished
 [@fa18-523-57-Neural-Nets].
 
-### Tensors {#Tensors}
+### Tensors
 
 Tensor [@fa18-523-57-Tensor] is an inbuilt data structure in PyTorch and can be
 defined as a matrix of matrices or can be defined as a multi-dimensional array
@@ -91,7 +93,7 @@ tensor and a tensor with 4 dimensions is called a 4-D tensor
 computing process and calculation time on matrix operations when compared to
 existing NumPy's ndarrays [@fa18-523-57-PyTorch].
 
-### Computation Graph {#Computational Graph}
+### Computation Graph
 
 A computational graph [@fa18-523-57-graph] is a internal representation of the
 operations performed during the neural nets training. It is also called a data
@@ -100,20 +102,20 @@ nodes and edges, with nodes representing each operation and edges representing
 the values being sent from each operation from one layer to another layer in
 neural networks [@fa18-523-57-graph].
 
-### Auto Differentiation {#Auto Differentiation}
+### Auto Differentiation
 
 Auto Differentiation [@fa18-523-57-Differentiation] is a series of techniques
 used to numerically calculate the derivative of the transformation and loss
 functions defined in our neural networks [@fa18-523-57-Differentiation].z
 
-### Backpropagation {#Backpropagation}
+### Backpropagation
 
 Back propagation [@fa18-523-57-Backpropagation] is a technique in neural
 networks which calculates the gradient values for the peaks and troughs of the
 loss function and send the error values obtained to the previous layer going in
 the reverse or backward direction [@fa18-523-57-Backpropagation].
 
-### Autograd {#Autograd}
+### Autograd
 
 Autograd [@fa18-523-57-Autograd] is a function in the *torch* library of PyTorch
 which calculates the gradients of the transformation and loss functions used in
