@@ -258,7 +258,7 @@ The entire code for initializing neural networks, loss and optimizer functions,
 including training and testing our models while applying them to a dataset of
 our choice is available can be found at [@fa18-523-57-Code].
 
-## Advantages of PyTorch Over Existing Frameworks
+## Advantages of PyTorch
 
 When we compare PyTorch over the existing frameworks like TensorFlow, Caffe,
 Keras, Chainer and such, the below are the most promising advantages.
@@ -291,7 +291,7 @@ Keras, Chainer and such, the below are the most promising advantages.
 	 PyTorch through Scipy and NumPy can be found at
 	 [@fa18-523-57-PyTorch-Extensions]
 
-## Drawbacks of PyTorch Over Existing Frameworks
+## Drawbacks of PyTorch
 
 When we compare PyTorch with its competitors, it looks like TensorFlow gives a
 tight competition due to its use in other deep learning packages as well
