@@ -57,10 +57,10 @@ the loss function and calculate the gradients for loss function
 Before we start using PyTorch, we need to have a background or working knowledge
 on the below concepts.
 
-Keywords: Deep-Learning, Neural-Networks, Tensors, Computational-Graph, Autograd
-					, Auto-Differentiation, Back-propagation
+Keywords: #Deep Learning, Neural Networks, Tensors, Computational Graph, Autograd
+					, Auto Differentiation, Backpropagation
 
-### Deep Learning {#Deep-Learning}
+### Deep Learning
 
 Deep Learning [@fa18-523-57-Deep-Learning-wiki] is a branch of Machine Learning
 which takes its inspiration from the function and structure of a human brain
@@ -69,7 +69,7 @@ which has been vastly used in different fields of computer vision, audio and
 video signal processing, natural language and speech recognition and such
 [@fa18-523-57-Deep-Learning-wiki].
 
-### Neural Networks {#Neural-Networks}
+### Neural Networks {#Neural Networks}
 
 Neural Nets [@fa18-523-57-Neural-Nets] is a collection of various connected
 nodes called neurons mimicking the neuron structure in the human brain. Each
@@ -91,7 +91,7 @@ tensor and a tensor with 4 dimensions is called a 4-D tensor
 computing process and calculation time on matrix operations when compared to
 existing NumPy's ndarrays [@fa18-523-57-PyTorch].
 
-### Computation Graph {#Computational-Graph}
+### Computation Graph {#Computational Graph}
 
 A computational graph [@fa18-523-57-graph] is a internal representation of the
 operations performed during the neural nets training. It is also called a data
@@ -100,13 +100,13 @@ nodes and edges, with nodes representing each operation and edges representing
 the values being sent from each operation from one layer to another layer in
 neural networks [@fa18-523-57-graph].
 
-### Auto Differentiation (#Auto-Differentiation)
+### Auto Differentiation {#Auto Differentiation}
 
 Auto Differentiation [@fa18-523-57-Differentiation] is a series of techniques
 used to numerically calculate the derivative of the transformation and loss
 functions defined in our neural networks [@fa18-523-57-Differentiation].z
 
-### Back-propagation {#Back-propagation}
+### Backpropagation {#Backpropagation}
 
 Back propagation [@fa18-523-57-Backpropagation] is a technique in neural
 networks which calculates the gradient values for the peaks and troughs of the
