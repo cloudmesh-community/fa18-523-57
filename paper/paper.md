@@ -6,107 +6,317 @@
 | hid: fa18-523-57
 | github: [:cloud:](https://github.com/cloudmesh-community/fa18-523-57/tree/master/paper)
 
-* do not remove the :exclamation: this is for the instructors a sign that we reviewed 
-* :o: language can be improved. Sentences are incomplete and words are missing
-* :o: not following markdown or FAQs we posted on how to use urls so i correctd this
+* do not remove the :exclamation: this is for the instructors a sign that we
+	reviewed
 
 ---
 
-Keywords: Hid fa18-523-57, Deep Learning, gradient descents, Autograd, neural networks, Python
+Keywords: Hid fa18-523-57, Deep Learning, gradient descents, Autograd, Neural Networks, Tensors, Python
 
 ---
 
+PyTorch [@paszke2017automatic] is a python based deep learning framework used
+for scientific calculations. It is becoming popular among Neural Nets and Deep
+Learning developers due to faster implementation of the algorithms and maximum
+flexibility of use. It is also used as a replacement for NumPy
+[@fa18-523-57-NumPy], an existing package, available in Python on scientific
+computing. PyTorch mimicked most of NumPy's functionality with an addition of
+increased speed by making use of the Graphical Processing Unit (GPU).
+[@fa18-523-57-PyTorch]
 
-:o: remove the abstract and introduce into the introduction. This paper is too short to justify an abstract
-:o: start with pytorch not whit a scnario, 
+Being written in a commonly used language by Machine Learning and Artificial
+Intelligence developers, Python, PyTorch has been gaining popularity since its
+inception in 2016 [citation - Wikipedia]. It is also less complex and easy to
+use when compared to existing Deep Learning frameworks like TensorFlow
+[@fa18-523-57-TensorFlow], Keras [@fa18-523-57-Keras], Caffe
+[@fa18-523-57-Caffe], Chainer [@fa18-523-57-Chainer],MXNet [@fa18-523-57-MXNet],
+CNTK [@fa18-523-57-CNTK], Deeplearning4j [@fa18-523-57-DL4J].
 
-The software industry has been increasingly adapting machine learning algorithms to make their machines intelligent and deep learning is a subset of machine learning which allows us to achieve a greater flexibility, capacity and computation power. 
-:o: unclear
+PyTorch has been developed by the Artificial Intelligence group at Facebook
+[@fa18-523-57-PyTorch-Wikipedia] and is a successor framework of Torch
+[@fa18-523-57-Torch] and has been built on it. Torch is a computing framework
+for scientific calculations wrapped in Lua, a programming language written in a
+general purpose programming language C [@fa18-523-57-C].
 
-To make it easier for the deep learning implementors, several frameworks  which have the deep learning algorithms, in a less complex and easy to use format. :grammar:
+Torch runs even in constrained platforms through LuaJIT [@fa18-523-57-LuaJIT] a
+platform specific compiler. It is used extensively to implement machine learning
+and deep learning algorithms [@fa18-523-57-PyTorch-Wikipedia]. It has a
+plethora of packages commonly used for Machine Learning, Signal Processing,
+Computer Vision among others, these have been inherited into PyTorch
+as well [@fa18-523-57-Torch].
 
-PyTorch is one such deep learning framework which is in popular use due to its core language being python. This paper aims to introduce PyTorch and to enable users to understand the role PyTorch plays in faster implementation of Deep Learning algorithms. :o: if there is one, you must liste the others with citations. As you remove the abstract you can now do that
-
-
-:o: grammar errors just indicated with :o: at the end of sentence
-
-PyTorch [@paszke2017automatic] is a deep learning framework is built upon existing framework Torch, but written in Python.  :o:
-
-It has been developed the Artificial Intelligence group at Facebook ~~led by Adam Paszke, Soumith Chintala and team
-:o: no need to name them does not help to understand what PyTorch is.~~
-
-[@fa18-523-57-PyTorch-Wikipedia]. Torch was initially created for academic purposes and is extensively used for scientific computing in deep learning and machine learning currently. :o: :o: citations missing
-
-PyTorch can be used for faster computation of algorithms which are of expensive computations, :o: and would allow the developers to make real time execution and analysis of algorithms and their results. :o: Algorithms in Deep Learning and neural networks compute the peaks and descents of loss functions without using any pre-existing functions on gradient descent [@paszke2017automatic]. :o: These algorithms would :o: turn expensive based on the increasing number of iterations or relative calculations. :o:
-
-PyTorch performs faster :o: faster tahn what :o: calculations of complicated neural nets and other deep learning and artificial intelligence related algorithms making use of the combined power of Python and Torch. Since PyTorch is relatively simple owing :o: the use of Python as its base language and yet extremely powerful by making use of Torch :o: cite missing :o: this can not b understood as i now need to knwo what torkh is so you need to explain thst :o:, such :o: which: computationally expensive algorithms are calculated faster using PyTorch and hence, it has been in popular use :o: in the last few years even though it is relatively new.   
+PyTorch seamlessly integrates all the packages which Torch offers and builds all
+of its functionality using Python, making Python its integral part. This makes
+the implementation of algorithms even faster than Torch. The main package of
+Torch and PyTorch is *torch* using which we can train neural networks, define
+the loss function and calculate the gradients for loss function
+[@fa18-523-57-PyTorch-Wikipedia].
 
 
 ## Background
 
-PyTorch ~~as mentioned~~ is a deep learning scientific framework which is ~~completely~~ written using Python. It is based of Torch [@fa18-523-57-Torch] which is wrapped in Lua, a programming language written in C. It runs even in constrained platforms through LuaJIT, a platform specific compiler. This platform specific compiler improves the performance of Torch as the underlying code would remain the same. 
+Before we start using PyTorch, we need to have a background or working knowledge
+on the below concepts.
 
-By shedding :o: Lua and LuaJIT, PyTorch came into existence by directly utilizing Python, increasing performance even further :o: than what? :o:. It seamlessly integrates Python code and its related packages into PyTorch and builds all of its functionality in Python making Python an integral part of its design and thus becoming more popular with early developers.
+Keywords: Deep-Learning, Neural-Networks, Tensors, Computational-Graph, Autograd
+					, Auto-Differentiation, Back-propagation
 
-Torch uses a function called Autograd which calculates the gradients of the loss function on its peaks and troughs. And Python has such an implementation too, a package called Autograd which is further adapted by PyTorch and uses a method called tape-based auto differentiation. This technique basically works like a tape recorder by recording the gradients computed and by replaying these values in a reveres order. This functions implementation in PyTorch is much more faster as it combines the power of Python and Torch. [@fa18-523-57-PyTorch-Started]
+### Deep Learning (#Deep-Learning)
 
-Many developers have been using this library as an alternative to Numpy as it has taken advantage of GPU (Graphical Processing Unit) acceleration for faster computing [@fa18-523-57-PyTorch-Tensor]. And :o: it mainly focusses on fastening :o: the computational speed of numerical formulae related computations, which helps developer :o: and data scientists alike to calculate extremely expensive code snippets to run in real time making use of the GPU [@fa18-523-57-PyTorch-Tensor].
+Deep Learning [@fa18-523-57-Deep-Learning-wiki] is a branch of Machine Learning
+which takes its inspiration from the function and structure of a human brain
+[@fa18-523-57-Deep-Learning]. It has a sub architecture called neural network
+which has been vastly used in different fields of computer vision, audio and
+video signal processing, natural language and speech recognition and such
+[@fa18-523-57-Deep-Learning-wiki].
 
+### Neural Networks (#Neural-Networks)
+
+Neural Nets [@fa18-523-57-Neural-Nets] is a collection of various connected
+nodes called neurons mimicking the neuron structure in the human brain. Each
+neuron receives an input, processes this input by performing a set of operations
+and then sends it to a next layer in the neural nets. Each layer has a weight
+and bias associated to it, on which a computation is done. This processing is
+based on some pre-defined function, a gradient descent algorithm, which
+transforms the input in each layer and this entire process is repeated a huge
+number of times till the error calculated is diminished
+[@fa18-523-57-Neural-Nets].
+
+### Tensors (#Tensors)
+
+Tensor [@fa18-523-57-Tensor] is an inbuilt data structure in PyTorch and can be
+defined as a matrix of matrices or can be defined as a multi-dimensional array
+with dimensions greater than 3. So a tensor with 3 dimensions is called a 3-D
+tensor and a tensor with 4 dimensions is called a 4-D tensor
+[@fa18-523-57-Tensor]. This tensor are used on a GPU which accelerates the
+computing process and calculation time on matrix operations when compared to
+existing NumPy's ndarrays [@fa18-523-57-PyTorch].
+
+### Computation Graph (#Computational-Graph)
+
+A computational graph [@fa18-523-57-graph] is a internal representation of the
+operations performed during the neural nets training. It is also called a data
+graph and is also an inbuilt data structure in PyTorch. It consists of a set of
+nodes and edges, with nodes representing each operation and edges representing
+the values being sent from each operation from one layer to another layer in
+neural networks [@fa18-523-57-graph].
+
+### Auto Differentiation (#Auto-Differentiation)
+
+Auto Differentiation [@fa18-523-57-Differentiation] is a series of techniques
+used to numerically calculate the derivative of the transformation and loss
+functions defined in our neural networks [@fa18-523-57-Differentiation].z
+
+### Back-propagation (#Back-propagation)
+
+Back propagation [@fa18-523-57-Backpropagation] is a technique in neural
+networks which calculates the gradient values for the peaks and troughs of the
+loss function and send the error values obtained to the previous layer going in
+the reverse or backward direction [@fa18-523-57-Backpropagation].
+
+### Autograd (#Autograd)
+
+Autograd [@fa18-523-57-Autograd] is a function in the *torch* library of PyTorch
+which calculates the gradients of the transformation and loss functions used in
+neural networks. This function uses a technique called tape-based
+Auto-Differentiation [@fa18-523-57-PyTorch-Started], a kind of the
+Auto-Differentiation. This technique saves the operations performed in each
+layer of the neural network in a reverse order, mimicking how a tape recorder
+works. This function also saves the gradients calculated in each layer of neural
+nets and replays them in a reverse order. This implementation in PyTorch is
+faster than the same implementation in existing frameworks like TensorFlow
+[@fa18-523-57-PyTorch-Started]. We also use this function to train weights for
+neural networks through back propagation
 
 ## Getting Started
 
-If you have never used PyTorch before you need to install PyTorch, check <https://pytorch.org> for more instructions on the system requirements and different ways to install PyTorch [@fa18-523-57-PyTorch-installation].
+If you have never used PyTorch before you need to install PyTorch, check
+[@fa18-523-57-PyTorch-requirements] for more instructions on the system
+requirements and different ways to install PyTorch
+[@fa18-523-57-PyTorch-installation].
 
-In :o: terminal or command prompt, enter the below line to install the PyTorch library.
+In your system terminal or command prompt, enter the below line to install the
+PyTorch library.
 
 ```python
 pip install torch torchvision
 ```
 
-:o: Remove the image and replace with ascii text
+You would see a message similar to the below in your command or terminal window.
 
-![installation](images/install.png){fig:installation}
+```bash
+$ pip install torch torchvision
+```
 
-Sample tensor initialization can be seen below:
+To use PyTorch we need to first import the library *torch*. A sample
+initialization of tensors using PyTorch is done as below.
 
-:o: Remove the image and replace with ascii text
+```python
+from __future__ import print_function
+import torch
+```
 
-![installation](images/Initialization.png){fig:Initialization}
+#### Creating an empty matrix
 
-~~For~~ step by step instructions for using PyTorch can be found at <https://pytorch.org/tutorials/index.html>. There are several tutorials to use PyTorch on Deep Learning Algorithms with downloadable code, which can be used to learn how to use the library. :o: than name them?
+```
+torch.empty(4, 3)
+```
 
 
-## Operations Using PyTorch
+#### Creating a randomly initialized matrix
 
-PyTorch has several inbuilt data structures which are widely used for deep learning and deep neural nets algorithms [@fa18-523-57-PyTorch-deep-learning]. These are:
+```
+torch.rand(4, 3)
+```
 
-1. Tensors: ~~PyTorch has a data structure names~~ Tensors are ... and work in close alignment to Numpy arrays and also utilizing the GPU to speed up the calculation time on matrix operations. :o: does not explain what tensors are
 
-2. Computation Graph: In training a neural network, we often have to compute gradients for every combination of weights and bias, which further needs to be updated using gradient descent algorithms, here we utilize graphs to effectively compute the gradients for every combination sequentially and train the neural network in the process. This graph applies :o: chain rule to compute all the gradients utilizing back propagation method.
+#### Constructing a tensor
 
+```
+torch.tensor(torch.rand(4, 3))
+```
+
+Step by step instructions for using PyTorch can be found at
+[@fa18-523-57-instructions].
 
 ## Implementation
 
-When using PyTorch, we need to import it as is seen in the Installation image :o:. To use the auto differentiation technique we discussed above :o: you dod not discuss in detail so i do not understand, we use the library *torch.autograd*. Using this library we can compute the gradients for the peaks and troughs of the loss function  [@fa18-523-57-PyTorch-modules]. We use this library to train weights for neural networks through a process called backward pass. :o: I do not understand
+PyTorch can be initialized using the package *torch*. It contains the below
+functions.
 
-To build neural networks we use the  library called *torch.nn*. We use the function *torch.nn.Sequential* to initialise a model with a linear stack of layers and use *torch.nn.MSELoss()* to initialise the loss function, which measures the mean squared error between the input and ouput layers [@fa18-523-57-PyTorch-modules]. Using the *torch.optim* package we can define our optimizer which updates the weights. This package abstracts the optimization algorithm and provides pre-existing optimization algorithms like Adam, AdaGrad and so on [@fa18-523-57-PyTorch-modules]. :o: doe snot explain what is done, I do not understand what is done.
+1. *torch.nn* is a library of functions used to train or build the neural
+	 networks [@fa18-523-57-PyTorch-modules].
 
-For greater detail :o: basically the previous text is confusing, so the reader must go to the original? :o: version of the implementation please follow the step by step tutorial at <https://github.com/yunjey/pytorch-tutorial>. It has a tutorial for three levels of developers, a beginner level, an intermediate level and an advanced level, which is extremely helpful for new developers.
+2. *torch.nn.Linear* is a function which applies a transformation linear in
+	 nature on the incoming values [@fa18-523-57-PyTorch-modules].
 
+3. *torch.nn.Sequential* is a function used to initialize a model with a linear
+	 stack of layers [@fa18-523-57-PyTorch-modules].
+
+4. *torch.nn.MSELoss()* is used to initialize the loss function and also
+	 calculates the error between the input and the output layer in the neural
+	 nets [@fa18-523-57-PyTorch-modules].
+
+5. *torch.optim* is a function which defines an optimizer algorithm which
+	 updates the weights at each layer [@fa18-523-57-PyTorch-modules].
+
+Let us see an example of how to use these above functions to train a neural
+network as below.
+
+##### Define the neural network
+```python
+###########################################################################
+#    Title: Classifying Text with Neural Networks and Pytorch
+#    Author: Mesquita, Déborah
+#    Date: Oct 25, 2017
+#    Code version: 1
+#    Availability: https://github.com/dmesquita/understanding_pytorch_nn
+#
+###########################################################################
+import torch
+import torch.nn as nn
+
+class OurNet(nn.Module):
+ def __init__(self, input_size, hidden_size, num_classes):
+     super(Net, self).__init__()
+     self.layer_1 = nn.Linear(n_inputs,hidden_size, bias=True)
+     self.relu = nn.ReLU()
+     self.layer_2 = nn.Linear(hidden_size, hidden_size, bias=True)
+     self.output_layer = nn.Linear(hidden_size, num_classes, bias=True)
+
+ def forward(self, x):
+     out = self.layer_1(x)
+     out = self.relu(out)
+     out = self.layer_2(out)
+     out = self.relu(out)
+     out = self.output_layer(out)
+     return out
+```
+The above code initiates the neural network with two hidden layers and one
+output layer. The function *nn.Linear* transforms the input layer data
+linearly, by multiplying the data with weights and adding a bias value. The
+transformation of our neural network is taken through the function *forward*
+which we defined above. In this function we call the initialized values and
+functions and transform the output and return this value.
+[@fa18-523-57-PyTorch-Code]
+
+To update the weights for our neural network, we use the optimizer algorithm
+*Adaptive Moment Estimation (Adam)* through the package *torch.optim*. This
+optimizer holds the state of the object and the components based on the gradient
+computation. To calculate the loss we use a function called
+*torch.nn.CrossEntropyLoss*. Below is a sample code on constructing the
+optimizer [@fa18-523-57-PyTorch-Code].
+
+##### Constructing optimizer
+```python
+net = OurNet(input_size, hidden_size, num_classes)
+optimizer = torch.optim.Adam(net.parameters(), lr=learning_rate)
+criterion = nn.CrossEntropyLoss()
+```
+The step *OurNet()* is our initization step for the neural nets we created. We
+get the initialized neural nets parameters and use it to initialize our
+optimizer function. Our next step would be to load a dataset from sklearn
+datasets, or any other set of datasets and use it to test our functions written.
+The entire code for initializing neural networks, loss and optimizer functions,
+including training and testing our models while applying them to a dataset of
+our choice is available can be found at [@fa18-523-57-Code].
 
 ## Advantages of PyTorch Over Existing Frameworks
 
-1. Ramp Up Time :o: what is that for code execution for PyTorch is much faster than its competitor TensorFlow, in that it uses dynamic creation of graphs rather than the static ones in TensorFlow. Here, the compilation time for the code is much smaller for PyTorch and the graph is built during run time, making it significantly faster than TensorFlow [@fa18-523-57-PyTorch-tensorflow]. 
+When we compare PyTorch over the existing frameworks like TensorFlow, Caffe,
+Keras, Chainer and such, the below are the most promising advantages.
 
-2. Debugging in PyTorch is easier when compared to TensorFlow as it's underlying language is Python, and debugging in Python is much easier when compared to TensorFlow code. :o:
+1. Ramp Up Time is the time taken to execute all the threads or layers and their
+	 iterations. This time for code execution using PyTorch is much faster than
+	 its competitor TensorFlow, in that it uses dynamic creation of graphs
+	 rather than the static ones in TensorFlow. Here, the compilation time for the
+	 code is much smaller for PyTorch, it uses GPU to increase the speed of
+	 execution and the graph is built during run time, making it significantly
+	 faster than TensorFlow [@fa18-523-57-PyTorch-tensorflow].
 
-3. Data Loading is much ~~more~~ faster in PyTorch as the APIs for loading the data are designed in a manner to best utilize its parallelizing data loading capability. 
+2. Debugging in PyTorch is easy as the underlying language is Python, which is
+ 	 a common language used by developers and its quite easier when compared to
+	 TensorFlow. We can use print statements to keep track of what values our
+	 variables take and to identify where our code fails
+	 [@fa18-523-57-PyTorch-tensorflow].
 
-4. PyTorch is highly extensible in that it has many custom extensions :o: citeation :o: and it is easier to implement them for both GPU and CPU versions of its code.
-	
-5. PyTorch also avoids using static graphs :o: already mentioned :o: which are used in TensorFlow and instead builds graphs dynamically using a much faster implementation of reverse mode tape-based auto differentiation. [@fa18-523-57-PyTorch-Started]
+3. Data Loading is much faster in PyTorch as the APIs for loading the data are
+   designed in a manner to best utilize its parallelizing data loading
+	 capability. One can use either NumPy, Pandas or any other library of choosing
+	 and can load data quite faster as PyTorch utilizes GPU
+	 [@fa18-523-57-PyTorch-tensorflow].
 
+4. PyTorch is highly extensible in that it has many custom extensions and it is
+	 easier to implement them for both GPU and CPU versions of its code
+	 [@fa18-523-57-PyTorch-tensorflow]. It can be extended using NumPy, Scipy
+	 [@fa18-523-57-Scipy] and many other libraries
+	 [@fa18-523-57-PyTorch-Extensions]. Examples on extending
+	 PyTorch through Scipy and NumPy can be found at
+	 [@fa18-523-57-PyTorch-Extensions]
 
-~~Conclusion~~
+## Drawbacks of PyTorch Over Existing Frameworks
 
-PyTorch is a great framework which reduces the time taken to compute various gradient descents and the underlying calculations for neural networks and is sure to be in much more use than we see now. :o: speculation :o: citation missing :o:
+When we compare PyTorch with its competitors, it looks like TensorFlow gives a
+tight competition due to its use in other deep learning packages as well
+[@fa18-523-57-competition]. TensorFlow has its advantages over PyTorch in
+certain areas which are as below.
+
+1. Coverage of functionality is less in PyTorch when compared to TensorFlow. The
+	 functions like NumPy's flip along a dimension, checking NaN values, fast
+	 fourier transformation are not readily available in PyTorch whereas these
+	 functions and many higher functions are available in TensorFlow
+	 [@fa18-523-57-PyTorch-tensorflow].
+
+2. Serialization [@fa18-523-57-Serialization] can be defined as the process of
+	 translating the input data into a format which can be easily transferred
+	 across different platforms [@fa18-523-57-Serialization]. This capability in
+	 TensorFlow is better than PyTorch that it even is capable of saving the
+	 graphs can be saved as well. These graphs can easily be loading into
+	 different languages like C++ and Java. This enables the deployments to not
+	 depend on Python alone [@fa18-523-57-PyTorch-tensorflow].
+
+3. Deployment is an activity which makes a code available to be used on a system
+	 where the code is placed. Since the code developed in TensorFlow can be
+	 easily saved in a format which can be used in different languages, TensorFlow
+	 code can be easily deployed even in mobile applications
+	 [@fa18-523-57-PyTorch-tensorflow].
