@@ -16,18 +16,18 @@ Keywords: Hid fa18-523-57, Deep Learning, gradient descents, Autograd, Neural Ne
 ---
 
 PyTorch [@paszke2017automatic] is a python based deep learning framework used
-for scientific calculations. It is becoming popular among Neural Nets and Deep
-Learning developers due to faster implementation of the algorithms and maximum
-flexibility of use. It is also used as a replacement for NumPy
+for scientific calculations. It is popular among Neural Nets and Deep Learning
+developers due to its faster implementation of the algorithms and the maximum
+flexibility of its use. It is also used as a replacement for NumPy
 [@fa18-523-57-NumPy], an existing package, available in Python on scientific
-computing. PyTorch mimicked most of NumPy's functionality with an addition of
-increased speed by making use of the Graphical Processing Unit (GPU).
-[@fa18-523-57-PyTorch]
+computing the reason being, PyTorch mimicked most of NumPy's functionality with
+an addition of increased speed by making use of the Graphical Processing Unit
+(GPU) [@fa18-523-57-PyTorch].
 
 Being written in a commonly used language by Machine Learning and Artificial
 Intelligence developers, Python, PyTorch has been gaining popularity since its
-inception in 2016 [citation - Wikipedia]. It is also less complex and easy to
-use when compared to existing Deep Learning frameworks like TensorFlow
+inception in 2016 [@fa18-523-57-PyTorch-Wikipedia]. It is also less complex and
+easy to use when compared to existing Deep Learning frameworks like TensorFlow
 [@fa18-523-57-TensorFlow], Keras [@fa18-523-57-Keras], Caffe
 [@fa18-523-57-Caffe], Chainer [@fa18-523-57-Chainer],MXNet [@fa18-523-57-MXNet],
 CNTK [@fa18-523-57-CNTK], Deeplearning4j [@fa18-523-57-DL4J].
@@ -36,9 +36,8 @@ PyTorch has been developed by the Artificial Intelligence group at Facebook
 [@fa18-523-57-PyTorch-Wikipedia] and is a successor framework of Torch
 [@fa18-523-57-Torch] and has been built on it. Torch is a computing framework
 for scientific calculations wrapped in Lua, a programming language written in a
-general purpose programming language C [@fa18-523-57-C].
-
-Torch runs even in constrained platforms through LuaJIT [@fa18-523-57-LuaJIT] a
+general purpose programming language C [@fa18-523-57-C]. This framework Torch
+runs even in constrained platforms through LuaJIT [@fa18-523-57-LuaJIT] a
 platform specific compiler. It is used extensively to implement machine learning
 and deep learning algorithms [@fa18-523-57-PyTorch-Wikipedia]. It has a
 plethora of packages commonly used for Machine Learning, Signal Processing,
