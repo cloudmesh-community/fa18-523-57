@@ -57,9 +57,9 @@ the loss function and calculate the gradients for loss function
 Before we start using PyTorch, we need to have a background or working knowledge
 on the below concepts.
 
-Keywords: [Deep Learning](#Deep Learning), [Neural Networks](#Neural Networks),
-					[Tensors](#Tensors), [Computational Graph](#Computational Graph),
-					[Autograd](#Autograd), [Auto Differentiation](#Auto Differentiation),
+Keywords: [Deep Learning](#Deep-Learning), [Neural Networks](#Neural-Networks),
+					[Tensors](#Tensors), [Computational Graph](#Computational-Graph),
+					[Autograd](#Autograd), [Auto Differentiation](#Auto-Differentiation),
 					[Backpropagation](#Backpropagation)
 
 ### Deep Learning
