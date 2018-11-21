@@ -20,7 +20,7 @@ for scientific calculations. It is popular among Neural Nets and Deep Learning
 developers due to its faster implementation of the algorithms and the maximum
 flexibility of its use. It is also used as a replacement for NumPy
 [@fa18-523-57-NumPy], an existing package, available in Python on scientific
-computing the reason being, PyTorch mimicked most of NumPy's functionality with
+computing. The reason being, PyTorch mimicked most of NumPy's functionality with
 an addition of increased speed by making use of the Graphical Processing Unit
 (GPU) [@fa18-523-57-PyTorch].
 
@@ -36,7 +36,7 @@ PyTorch has been developed by the Artificial Intelligence group at Facebook
 [@fa18-523-57-PyTorch-Wikipedia] and is a successor framework of Torch
 [@fa18-523-57-Torch] and has been built on it. Torch is a computing framework
 for scientific calculations wrapped in Lua, a programming language written in a
-general purpose programming language C [@fa18-523-57-C]. This framework Torch
+general purpose programming language C [@fa18-523-57-C]. This framework, Torch
 runs even in constrained platforms through LuaJIT [@fa18-523-57-LuaJIT] a
 platform specific compiler. It is used extensively to implement machine learning
 and deep learning algorithms [@fa18-523-57-PyTorch-Wikipedia]. It has a
@@ -60,7 +60,7 @@ on the below concepts.
 Keywords: Deep-Learning, Neural-Networks, Tensors, Computational-Graph, Autograd
 					, Auto-Differentiation, Back-propagation
 
-### Deep Learning (#Deep-Learning)
+### Deep Learning {#Deep-Learning}
 
 Deep Learning [@fa18-523-57-Deep-Learning-wiki] is a branch of Machine Learning
 which takes its inspiration from the function and structure of a human brain
@@ -69,7 +69,7 @@ which has been vastly used in different fields of computer vision, audio and
 video signal processing, natural language and speech recognition and such
 [@fa18-523-57-Deep-Learning-wiki].
 
-### Neural Networks (#Neural-Networks)
+### Neural Networks {#Neural-Networks}
 
 Neural Nets [@fa18-523-57-Neural-Nets] is a collection of various connected
 nodes called neurons mimicking the neuron structure in the human brain. Each
@@ -81,7 +81,7 @@ transforms the input in each layer and this entire process is repeated a huge
 number of times till the error calculated is diminished
 [@fa18-523-57-Neural-Nets].
 
-### Tensors (#Tensors)
+### Tensors {#Tensors}
 
 Tensor [@fa18-523-57-Tensor] is an inbuilt data structure in PyTorch and can be
 defined as a matrix of matrices or can be defined as a multi-dimensional array
@@ -91,7 +91,7 @@ tensor and a tensor with 4 dimensions is called a 4-D tensor
 computing process and calculation time on matrix operations when compared to
 existing NumPy's ndarrays [@fa18-523-57-PyTorch].
 
-### Computation Graph (#Computational-Graph)
+### Computation Graph {#Computational-Graph}
 
 A computational graph [@fa18-523-57-graph] is a internal representation of the
 operations performed during the neural nets training. It is also called a data
@@ -106,14 +106,14 @@ Auto Differentiation [@fa18-523-57-Differentiation] is a series of techniques
 used to numerically calculate the derivative of the transformation and loss
 functions defined in our neural networks [@fa18-523-57-Differentiation].z
 
-### Back-propagation (#Back-propagation)
+### Back-propagation {#Back-propagation}
 
 Back propagation [@fa18-523-57-Backpropagation] is a technique in neural
 networks which calculates the gradient values for the peaks and troughs of the
 loss function and send the error values obtained to the previous layer going in
 the reverse or backward direction [@fa18-523-57-Backpropagation].
 
-### Autograd (#Autograd)
+### Autograd {#Autograd}
 
 Autograd [@fa18-523-57-Autograd] is a function in the *torch* library of PyTorch
 which calculates the gradients of the transformation and loss functions used in
