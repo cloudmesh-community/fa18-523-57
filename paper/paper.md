@@ -259,10 +259,11 @@ Keras, Chainer and such, the below are the most promising advantages.
 1. Ramp Up Time is the time taken to execute all the threads or layers and their
 	 iterations. This time for code execution using PyTorch is much faster than
 	 its competitor TensorFlow, in that it uses dynamic creation of graphs
-	 rather than the static ones in TensorFlow. Here, the compilation time for the
-	 code is much smaller for PyTorch, it uses GPU to increase the speed of
-	 execution and the graph is built during run time, making it significantly
-	 faster than TensorFlow [@fa18-523-57-PyTorch-tensorflow].
+	 rather than the static ones in TensorFlow [@fa18-523-57-PyTorch-tensorflow].
+	 Here, the compilation time for the code is much smaller for PyTorch, it uses
+	 GPU to increase the speed of execution and the graph is built during run
+	 time, making it significantly faster than TensorFlow
+	 [@fa18-523-57-PyTorch-tensorflow].
 2. Debugging in PyTorch is easy as the underlying language is Python, which is
  	 a common language used by developers and its quite easier when compared to
 	 TensorFlow. We can use print statements to keep track of what values our
