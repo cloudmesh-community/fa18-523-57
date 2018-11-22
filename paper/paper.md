@@ -285,8 +285,8 @@ Keras, Chainer and such, the below are the most promising advantages.
 ## Drawbacks of PyTorch
 
 When we compare PyTorch over its competitor like TensorFlow
-[@fa18-523-57-competition] we identify some of the areas where TensorFlow has
-advantages over PyTorch [@fa18-523-57-PyTorch-tensorflow].
+[@fa18-523-57-competition] we identify the below areas where TensorFlow
+outperforms PyTorch [@fa18-523-57-PyTorch-tensorflow].
 
 1. Coverage of functionality is less in PyTorch when compared to TensorFlow. The
 	 functions like NumPy's flip along a dimension, checking NaN values, fast
