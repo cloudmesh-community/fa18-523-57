@@ -169,6 +169,11 @@ Step by step instructions for using PyTorch can be found at
 PyTorch can be initialized using the package *torch*. It contains the below
 functions.
 
+1. Sample
+2. sample 2
+3. sample3
+5. sample 4
+
 1. *torch.nn* is a library of functions used to train or build the neural
 	 networks [@fa18-523-57-PyTorch-modules].
 2. *torch.nn.Linear* is a function which applies a transformation linear in
