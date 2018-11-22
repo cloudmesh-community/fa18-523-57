@@ -62,12 +62,12 @@ on the below concepts.
 
 Deep Learning [@fa18-523-57-Deep-Learning-wiki] is a branch of Machine Learning
 which takes its inspiration from the function and structure of a human brain
-[@fa18-523-57-Deep-Learning]. It has a sub architecture called neural network
-which has been vastly used in different fields of computer vision, audio and
-video signal processing, natural language and speech recognition and such
+[@fa18-523-57-Deep-Learning]. It uses a subset of machine learning algorithms
+which processes input data in multiple layers through feature extraction and
+transformation and predicts the output labels [@fa18-523-57-Deep-Learning-wiki].
+It is being vastly used in different fields of computer vision, audio and video
+signal processing, natural language and speech recognition and such
 [@fa18-523-57-Deep-Learning-wiki].
-
-:o: sentence missing tying things together
 
 ### Neural Networks
 
@@ -168,11 +168,6 @@ Step by step instructions for using PyTorch can be found at
 
 PyTorch can be initialized using the package *torch*. It contains the below
 functions.
-
-1. Sample
-2. sample 2
-3. sample3
-5. sample 4
 
 1. *torch.nn* is a library of functions used to train or build the neural
 	 networks [@fa18-523-57-PyTorch-modules].
