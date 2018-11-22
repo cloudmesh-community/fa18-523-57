@@ -1,4 +1,4 @@
-# PyTorch :hand: :exclamation: fa18-523-57
+# PyTorch :wave: :exclamation: fa18-523-57
 
 | Divya Rajendran
 | divrajen@iu.edu
@@ -66,6 +66,8 @@ which takes its inspiration from the function and structure of a human brain
 which has been vastly used in different fields of computer vision, audio and
 video signal processing, natural language and speech recognition and such
 [@fa18-523-57-Deep-Learning-wiki].
+
+:o: sentence missing tying things together
 
 ### Neural Networks
 
@@ -136,7 +138,7 @@ In your system terminal or command prompt, enter the below line to install the
 PyTorch library.
 
 ```python
-pip install torch torchvision
+$ pip install torch torchvision
 ```
 
 You would see a message similar to the below in your command or terminal window.
@@ -155,6 +157,8 @@ import torch
 
 #### Creating an empty matrix
 
+:o: sentence missing if you use section with heading
+
 ```
 torch.empty(4, 3)
 ```
@@ -162,12 +166,17 @@ torch.empty(4, 3)
 
 #### Creating a randomly initialized matrix
 
+:o: sentence missing if you use section with heading
+
+
 ```
 torch.rand(4, 3)
 ```
 
 
 #### Constructing a tensor
+
+:o: sentence missing if you use section with heading
 
 ```
 torch.tensor(torch.rand(4, 3))
@@ -181,19 +190,17 @@ Step by step instructions for using PyTorch can be found at
 PyTorch can be initialized using the package *torch*. It contains the below
 functions.
 
+:o: indentation wrong not markdown
+
 1. *torch.nn* is a library of functions used to train or build the neural
 	 networks [@fa18-523-57-PyTorch-modules].
-
 2. *torch.nn.Linear* is a function which applies a transformation linear in
 	 nature on the incoming values [@fa18-523-57-PyTorch-modules].
-
 3. *torch.nn.Sequential* is a function used to initialize a model with a linear
 	 stack of layers [@fa18-523-57-PyTorch-modules].
-
 4. *torch.nn.MSELoss()* is used to initialize the loss function and also
 	 calculates the error between the input and the output layer in the neural
 	 nets [@fa18-523-57-PyTorch-modules].
-
 5. *torch.optim* is a function which defines an optimizer algorithm which
 	 updates the weights at each layer [@fa18-523-57-PyTorch-modules].
 
@@ -201,6 +208,11 @@ Let us see an example of how to use these above functions to train a neural
 network as below.
 
 ### Define a Neural Network
+
+:o: add sentence with proper citation and remove the comment
+
+In this example we do. This example is copied from [?]
+
 ```python
 ###########################################################################
 #    Title: Classifying Text with Neural Networks and Pytorch
@@ -229,7 +241,8 @@ class OurNet(nn.Module):
      out = self.output_layer(out)
      return out
 ```
-The above code initiates the neural network with two hidden layers and one
+
+The previous code initiates the neural network with two hidden layers and one
 output layer. The function *nn.Linear* transforms the input layer data
 linearly, by multiplying the data with weights and adding a bias value. The
 transformation of our neural network is taken through the function *forward*
@@ -245,6 +258,7 @@ computation. To calculate the loss we use a function called
 optimizer [@fa18-523-57-PyTorch-Code].
 
 ### Constructing an optimizer
+
 ```python
 net = OurNet(input_size, hidden_size, num_classes)
 optimizer = torch.optim.Adam(net.parameters(), lr=learning_rate)
@@ -263,6 +277,8 @@ our choice is available can be found at [@fa18-523-57-Code].
 When we compare PyTorch over the existing frameworks like TensorFlow, Caffe,
 Keras, Chainer and such, the below are the most promising advantages.
 
+:o: indentation wrong not markdown
+
 1. Ramp Up Time is the time taken to execute all the threads or layers and their
 	 iterations. This time for code execution using PyTorch is much faster than
 	 its competitor TensorFlow, in that it uses dynamic creation of graphs
@@ -270,13 +286,11 @@ Keras, Chainer and such, the below are the most promising advantages.
 	 code is much smaller for PyTorch, it uses GPU to increase the speed of
 	 execution and the graph is built during run time, making it significantly
 	 faster than TensorFlow [@fa18-523-57-PyTorch-tensorflow].
-
 2. Debugging in PyTorch is easy as the underlying language is Python, which is
  	 a common language used by developers and its quite easier when compared to
 	 TensorFlow. We can use print statements to keep track of what values our
 	 variables take and to identify where our code fails
 	 [@fa18-523-57-PyTorch-tensorflow].
-
 3. Data Loading is much faster in PyTorch as the APIs for loading the data are
    designed in a manner to best utilize its parallelizing data loading
 	 capability. One can use either NumPy, Pandas or any other library of choosing
@@ -293,17 +307,30 @@ Keras, Chainer and such, the below are the most promising advantages.
 
 ## Drawbacks of PyTorch
 
-When we compare PyTorch with its competitors, it looks like TensorFlow gives a
+When we compare PyTorch with its competitors 
+
+:o: which are they, with citations)
+
+:o: grammar
+
+it looks like TensorFlow gives a
 tight competition due to its use in other deep learning packages as well
-[@fa18-523-57-competition]. TensorFlow has its advantages over PyTorch in
-certain areas which are as below.
+[@fa18-523-57-competition]. 
+
+:o: what is tight competition, what does it mean?
+
+TensorFlow has its advantages over PyTorch in
+certain areas which are as below. 
+
+:o: do not use the word below, we point this out in many piazza posts as well as in class
+
+:o: indentation wrong not markdown
 
 1. Coverage of functionality is less in PyTorch when compared to TensorFlow. The
 	 functions like NumPy's flip along a dimension, checking NaN values, fast
 	 fourier transformation are not readily available in PyTorch whereas these
 	 functions and many higher functions are available in TensorFlow
 	 [@fa18-523-57-PyTorch-tensorflow].
-
 2. Serialization [@fa18-523-57-Serialization] can be defined as the process of
 	 translating the input data into a format which can be easily transferred
 	 across different platforms [@fa18-523-57-Serialization]. This capability in
@@ -311,7 +338,6 @@ certain areas which are as below.
 	 graphs can be saved as well. These graphs can easily be loading into
 	 different languages like C++ and Java. This enables the deployments to not
 	 depend on Python alone [@fa18-523-57-PyTorch-tensorflow].
-
 3. Deployment is an activity which makes a code available to be used on a system
 	 where the code is placed. Since the code developed in TensorFlow can be
 	 easily saved in a format which can be used in different languages, TensorFlow
