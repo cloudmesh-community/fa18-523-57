@@ -137,15 +137,12 @@ requirements and different ways to install PyTorch
 In your system terminal or command prompt, enter the below line to install the
 PyTorch library.
 
-```python
-$ pip install torch torchvision
-```
-
-You would see a message similar to the below in your command or terminal window.
-
 ```bash
 $ pip install torch torchvision
 ```
+
+You would see a message in your terminal or command prompt that the package has
+been installed.
 
 To use PyTorch we need to first import the library *torch*. A sample
 initialization of tensors using PyTorch is done as below.
@@ -153,32 +150,14 @@ initialization of tensors using PyTorch is done as below.
 ```python
 from __future__ import print_function
 import torch
-```
 
 #### Creating an empty matrix
-
-:o: sentence missing if you use section with heading
-
-```
 torch.empty(4, 3)
-```
-
 
 #### Creating a randomly initialized matrix
-
-:o: sentence missing if you use section with heading
-
-
-```
 torch.rand(4, 3)
-```
-
 
 #### Constructing a tensor
-
-:o: sentence missing if you use section with heading
-
-```
 torch.tensor(torch.rand(4, 3))
 ```
 
@@ -189,8 +168,6 @@ Step by step instructions for using PyTorch can be found at
 
 PyTorch can be initialized using the package *torch*. It contains the below
 functions.
-
-:o: indentation wrong not markdown
 
 1. *torch.nn* is a library of functions used to train or build the neural
 	 networks [@fa18-523-57-PyTorch-modules].
@@ -209,9 +186,9 @@ network as below.
 
 ### Define a Neural Network
 
-:o: add sentence with proper citation and remove the comment
-
-In this example we do. This example is copied from [?]
+In this example we would learn how to create and initialize a neural net model
+with two layers and how to apply an optimizer function on this neural network.
+This example is copied from [@fa18-523-57-PyTorch-Code].
 
 ```python
 ###########################################################################
@@ -259,25 +236,25 @@ optimizer [@fa18-523-57-PyTorch-Code].
 
 ### Constructing an optimizer
 
+The step *OurNet()* is our initialization step for the neural nets we created.
+We get the initialized neural nets parameters and use it to initialize our
+optimizer function.
+
 ```python
 net = OurNet(input_size, hidden_size, num_classes)
 optimizer = torch.optim.Adam(net.parameters(), lr=learning_rate)
 criterion = nn.CrossEntropyLoss()
 ```
-The step *OurNet()* is our initization step for the neural nets we created. We
-get the initialized neural nets parameters and use it to initialize our
-optimizer function. Our next step would be to load a dataset from sklearn
-datasets, or any other set of datasets and use it to test our functions written.
-The entire code for initializing neural networks, loss and optimizer functions,
-including training and testing our models while applying them to a dataset of
-our choice is available can be found at [@fa18-523-57-Code].
+Our next step would be to load a dataset from sklearn datasets, or any other set
+of datasets and use it to test our functions written. The entire code for
+initializing neural networks, loss and optimizer functions, including training
+and testing our models while applying them to a dataset of our choice is
+available can be found at [@fa18-523-57-Code].
 
 ## Advantages of PyTorch
 
 When we compare PyTorch over the existing frameworks like TensorFlow, Caffe,
 Keras, Chainer and such, the below are the most promising advantages.
-
-:o: indentation wrong not markdown
 
 1. Ramp Up Time is the time taken to execute all the threads or layers and their
 	 iterations. This time for code execution using PyTorch is much faster than
@@ -296,7 +273,6 @@ Keras, Chainer and such, the below are the most promising advantages.
 	 capability. One can use either NumPy, Pandas or any other library of choosing
 	 and can load data quite faster as PyTorch utilizes GPU
 	 [@fa18-523-57-PyTorch-tensorflow].
-
 4. PyTorch is highly extensible in that it has many custom extensions and it is
 	 easier to implement them for both GPU and CPU versions of its code
 	 [@fa18-523-57-PyTorch-tensorflow]. It can be extended using NumPy, Scipy
@@ -307,24 +283,9 @@ Keras, Chainer and such, the below are the most promising advantages.
 
 ## Drawbacks of PyTorch
 
-When we compare PyTorch with its competitors 
-
-:o: which are they, with citations)
-
-:o: grammar
-
-it looks like TensorFlow gives a
-tight competition due to its use in other deep learning packages as well
-[@fa18-523-57-competition]. 
-
-:o: what is tight competition, what does it mean?
-
-TensorFlow has its advantages over PyTorch in
-certain areas which are as below. 
-
-:o: do not use the word below, we point this out in many piazza posts as well as in class
-
-:o: indentation wrong not markdown
+When we compare PyTorch over its competitor like TensorFlow
+[@fa18-523-57-competition] we identify some of the areas where TensorFlow has
+advantages over PyTorch [@fa18-523-57-PyTorch-tensorflow].
 
 1. Coverage of functionality is less in PyTorch when compared to TensorFlow. The
 	 functions like NumPy's flip along a dimension, checking NaN values, fast
