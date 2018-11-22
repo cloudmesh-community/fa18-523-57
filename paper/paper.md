@@ -4,7 +4,7 @@
 | divrajen@iu.edu
 | Indiana University
 | hid: fa18-523-57
-| github: [:cloud:](https://github.com/cloudmesh-community/fa18-523-57/tree/master/paper)
+| github: [:cloud:](https://github.com/cloudmesh-community/fa18-523-57/blob/master/paper/paper.md)
 
 * do not remove the :exclamation: this is for the instructors a sign that we
 	reviewed
