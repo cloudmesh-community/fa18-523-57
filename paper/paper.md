@@ -37,7 +37,7 @@ PyTorch has been developed by the Artificial Intelligence group at Facebook
 [@fa18-523-57-PyTorch-Wikipedia] and is a successor framework of Torch
 [@fa18-523-57-Torch] and has been built on it. Torch is a computing framework
 for scientific calculations wrapped in Lua, a programming language written in a
-general-purpose programming language C [@fa18-523-57-C]. This framework, Torch
+general-purpose programming language C [@fa18-523-57-C]. This framework, Torch,
 runs even in constrained platforms through LuaJIT [@fa18-523-57-LuaJIT] a
 platform specific compiler. It is used extensively to implement machine learning
 and deep learning algorithms [@fa18-523-57-PyTorch-Wikipedia]. It has a
@@ -86,7 +86,7 @@ number of times until the error calculated is diminished
 Tensor [@fa18-523-57-Tensor] is an inbuilt data structure in PyTorch and can be
 defined as a matrix of matrices or can be defined as a multi-dimensional array
 with dimensions greater than 3. So a tensor with 3 dimensions is called a 3-D
-tensor and a tensor with 4 dimensions is called a 4-D tensor
+tensor, a tensor with 4 dimensions is called a 4-D tensor and so on
 [@fa18-523-57-Tensor]. This tensor is used on a GPU which accelerates the
 computing process and calculation time on matrix operations when compared to
 existing NumPy's ndarrays [@fa18-523-57-PyTorch].
@@ -104,7 +104,7 @@ neural networks [@fa18-523-57-graph].
 
 Auto Differentiation [@fa18-523-57-Differentiation] is a series of techniques
 used to numerically calculate the derivative of the transformation and loss
-functions defined in our neural networks [@fa18-523-57-Differentiation].z
+functions defined in our neural networks [@fa18-523-57-Differentiation].
 
 ### Backpropagation
 
@@ -129,7 +129,7 @@ weights for neural networks through backpropagation [@fa18-523-57-Autograd].
 
 ## Getting Started
 
-If you have never used PyTorch before you need to install PyTorch, check
+If you have never used PyTorch before you need to install PyTorch. Check
 [@fa18-523-57-PyTorch-requirements] for more instructions on the system
 requirements and different ways to install PyTorch
 [@fa18-523-57-PyTorch-installation].
@@ -144,7 +144,7 @@ $ pip install torch torchvision
 You would see a message in your terminal or command prompt that the package has
 been installed.
 
-To use PyTorch we need to first import the library *torch*. A sample
+To use PyTorch we need to first import a library called *torch*. A sample
 initialization of tensors using PyTorch is done as below.
 
 ```python
@@ -171,8 +171,8 @@ functions.
 
 1. *torch.nn* is a library of functions used to train or build the neural
 	 networks [@fa18-523-57-PyTorch-modules].
-2. *torch.nn.Linear* is a function which applies a transformation linear in
-	 nature on the incoming values [@fa18-523-57-PyTorch-modules].
+2. *torch.nn.Linear* is a function which applies a transformation, linear in
+	 nature, on the incoming values [@fa18-523-57-PyTorch-modules].
 3. *torch.nn.Sequential* is a function used to initialize a model with a
 	 linear-stack of layers [@fa18-523-57-PyTorch-modules].
 4. *torch.nn.MSELoss()* is used to initialize the loss function and also
@@ -258,12 +258,12 @@ Keras, Chainer and such, the below are the most promising advantages.
 
 1. Ramp Up Time is the time taken to execute all the threads or layers and their
 	 iterations. This time for code execution using PyTorch is much faster than
-	 its competitor TensorFlow, in that it uses dynamic creation of graphs
-	 rather than the static ones in TensorFlow [@fa18-523-57-PyTorch-tensorflow].
-	 Here, the compilation time for the code is much smaller for PyTorch, it uses
-	 GPU to increase the speed of execution and the graph is built during
-	 run-time, making it significantly faster than TensorFlow
-	 [@fa18-523-57-PyTorch-tensorflow].
+	 its competitor TensorFlow [@fa18-523-57-PyTorch-tensorflow], in that it uses
+	 dynamic creation of graphs rather than the static ones in TensorFlow
+	 [@fa18-523-57-PyTorch-tensorflow]. Here, the compilation time for the code is
+	 much smaller for PyTorch, it uses GPU to increase the speed of execution and
+	 the graph is built during run-time, making it significantly faster than
+	 TensorFlow [@fa18-523-57-PyTorch-tensorflow].
 2. Debugging in PyTorch is easy as the underlying language is Python, which is
  	 a common language used by developers and it is quite easier when compared to
 	 TensorFlow. We can use print statements to keep track of what values our
