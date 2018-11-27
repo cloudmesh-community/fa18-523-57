@@ -1,6 +1,9 @@
+# Apple macOS only
 .DS_Store
-<<<<<<< HEAD
-=======
+
+# Config File
+*.config
+
 package*.json
 node_modules
 # Byte-compiled / optimized / DLL files
