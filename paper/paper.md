@@ -1,4 +1,4 @@
-# PyTorch :wave: :exclamation: fa18-523-57
+# PyTorch :smiley: :exclamation: fa18-523-57
 
 | Divya Rajendran
 | divrajen@iu.edu
@@ -37,7 +37,7 @@ PyTorch has been developed by the Artificial Intelligence group at Facebook
 [@fa18-523-57-PyTorch-Wikipedia] and is a successor framework of Torch
 [@fa18-523-57-Torch] and has been built on it. Torch is a computing framework
 for scientific calculations wrapped in Lua, a programming language written in a
-general purpose programming language C [@fa18-523-57-C]. This framework, Torch
+general-purpose programming language C [@fa18-523-57-C]. This framework, Torch
 runs even in constrained platforms through LuaJIT [@fa18-523-57-LuaJIT] a
 platform specific compiler. It is used extensively to implement machine learning
 and deep learning algorithms [@fa18-523-57-PyTorch-Wikipedia]. It has a
@@ -65,7 +65,7 @@ which takes its inspiration from the function and structure of a human brain
 [@fa18-523-57-Deep-Learning]. It uses a subset of machine learning algorithms
 which processes input data in multiple layers through feature extraction and
 transformation and predicts the output labels [@fa18-523-57-Deep-Learning-wiki].
-It is being vastly used in different fields of computer vision, audio and video
+It is being vastly used in different fields of computer vision, audio, and video
 signal processing, natural language and speech recognition and such
 [@fa18-523-57-Deep-Learning-wiki].
 
@@ -75,10 +75,10 @@ Neural Nets [@fa18-523-57-Neural-Nets] is a collection of various connected
 nodes called neurons mimicking the neuron structure in the human brain. Each
 neuron receives an input, processes this input by performing a set of operations
 and then sends it to a next layer in the neural nets. Each layer has a weight
-and bias associated to it, on which a computation is done. This processing is
+and bias associated with it, on which a computation is done. This processing is
 based on some pre-defined function, a gradient descent algorithm, which
 transforms the input in each layer and this entire process is repeated a huge
-number of times till the error calculated is diminished
+number of times until the error calculated is diminished
 [@fa18-523-57-Neural-Nets].
 
 ### Tensors
@@ -87,13 +87,13 @@ Tensor [@fa18-523-57-Tensor] is an inbuilt data structure in PyTorch and can be
 defined as a matrix of matrices or can be defined as a multi-dimensional array
 with dimensions greater than 3. So a tensor with 3 dimensions is called a 3-D
 tensor and a tensor with 4 dimensions is called a 4-D tensor
-[@fa18-523-57-Tensor]. This tensor are used on a GPU which accelerates the
+[@fa18-523-57-Tensor]. This tensor is used on a GPU which accelerates the
 computing process and calculation time on matrix operations when compared to
 existing NumPy's ndarrays [@fa18-523-57-PyTorch].
 
 ### Computation Graph
 
-A computational graph [@fa18-523-57-graph] is a internal representation of the
+A computational graph [@fa18-523-57-graph] is an internal representation of the
 operations performed during the neural nets training. It is also called a data
 graph and is also an inbuilt data structure in PyTorch. It consists of a set of
 nodes and edges, with nodes representing each operation and edges representing
@@ -108,7 +108,7 @@ functions defined in our neural networks [@fa18-523-57-Differentiation].z
 
 ### Backpropagation
 
-Back propagation [@fa18-523-57-Backpropagation] is a technique in neural
+Backpropagation [@fa18-523-57-Backpropagation] is a technique in neural
 networks which calculates the gradient values for the peaks and troughs of the
 loss function and send the error values obtained to the previous layer going in
 the reverse or backward direction [@fa18-523-57-Backpropagation].
@@ -117,15 +117,15 @@ the reverse or backward direction [@fa18-523-57-Backpropagation].
 
 Autograd [@fa18-523-57-Autograd] is a function in the *torch* library of PyTorch
 which calculates the gradients of the transformation and loss functions used in
-neural networks. This function uses a technique called tape-based
+neural networks. The function Autograd uses a technique called tape-based
 Auto-Differentiation [@fa18-523-57-PyTorch-Started], a kind of the
-Auto-Differentiation. This technique saves the operations performed in each
-layer of the neural network in a reverse order, mimicking how a tape recorder
-works. This function also saves the gradients calculated in each layer of neural
-nets and replays them in a reverse order. This implementation in PyTorch is
-faster than the same implementation in existing frameworks like TensorFlow
-[@fa18-523-57-PyTorch-Started]. We also use this function to train weights for
-neural networks through back propagation
+Auto-Differentiation technique. This technique saves the operations performed in
+each layer of the neural network in a reverse order, mimicking how a tape
+recorder works. This function also saves the gradients calculated in each layer
+of neural nets and replays them in a reverse order. Autograd's implementation in
+PyTorch is faster than the same implementation in existing frameworks like
+TensorFlow [@fa18-523-57-PyTorch-Started]. We also use this function to train
+weights for neural networks through backpropagation [@fa18-523-57-Autograd].
 
 ## Getting Started
 
@@ -173,8 +173,8 @@ functions.
 	 networks [@fa18-523-57-PyTorch-modules].
 2. *torch.nn.Linear* is a function which applies a transformation linear in
 	 nature on the incoming values [@fa18-523-57-PyTorch-modules].
-3. *torch.nn.Sequential* is a function used to initialize a model with a linear
-	 stack of layers [@fa18-523-57-PyTorch-modules].
+3. *torch.nn.Sequential* is a function used to initialize a model with a
+	 linear-stack of layers [@fa18-523-57-PyTorch-modules].
 4. *torch.nn.MSELoss()* is used to initialize the loss function and also
 	 calculates the error between the input and the output layer in the neural
 	 nets [@fa18-523-57-PyTorch-modules].
@@ -186,7 +186,7 @@ network as below.
 
 ### Define a Neural Network
 
-In this example we would learn how to create and initialize a neural net model
+In this example, we would learn how to create and initialize a neural net model
 with two layers and how to apply an optimizer function on this neural network.
 This example is copied from [@fa18-523-57-PyTorch-Code].
 
@@ -223,7 +223,7 @@ The previous code initiates the neural network with two hidden layers and one
 output layer. The function *nn.Linear* transforms the input layer data
 linearly, by multiplying the data with weights and adding a bias value. The
 transformation of our neural network is taken through the function *forward*
-which we defined above. In this function we call the initialized values and
+which we defined above. In this function, we call the initialized values and
 functions and transform the output and return this value.
 [@fa18-523-57-PyTorch-Code]
 
@@ -247,7 +247,7 @@ criterion = nn.CrossEntropyLoss()
 ```
 Our next step would be to load a dataset from sklearn datasets, or any other set
 of datasets and use it to test our functions written. The entire code for
-initializing neural networks, loss and optimizer functions, including training
+initializing neural networks, loss, and optimizer functions, including training
 and testing our models while applying them to a dataset of our choice is
 available can be found at [@fa18-523-57-Code].
 
@@ -261,26 +261,25 @@ Keras, Chainer and such, the below are the most promising advantages.
 	 its competitor TensorFlow, in that it uses dynamic creation of graphs
 	 rather than the static ones in TensorFlow [@fa18-523-57-PyTorch-tensorflow].
 	 Here, the compilation time for the code is much smaller for PyTorch, it uses
-	 GPU to increase the speed of execution and the graph is built during run
-	 time, making it significantly faster than TensorFlow
+	 GPU to increase the speed of execution and the graph is built during
+	 run-time, making it significantly faster than TensorFlow
 	 [@fa18-523-57-PyTorch-tensorflow].
 2. Debugging in PyTorch is easy as the underlying language is Python, which is
- 	 a common language used by developers and its quite easier when compared to
+ 	 a common language used by developers and it is quite easier when compared to
 	 TensorFlow. We can use print statements to keep track of what values our
 	 variables take and to identify where our code fails
 	 [@fa18-523-57-PyTorch-tensorflow].
 3. Data Loading is much faster in PyTorch as the APIs for loading the data are
    designed in a manner to best utilize its parallelizing data loading
-	 capability. One can use either NumPy, Pandas or any other library of choosing
+	 capability. One can use either NumPy, Pandas or any other library of choice
 	 and can load data quite faster as PyTorch utilizes GPU
 	 [@fa18-523-57-PyTorch-tensorflow].
 4. PyTorch is highly extensible in that it has many custom extensions and it is
 	 easier to implement them for both GPU and CPU versions of its code
 	 [@fa18-523-57-PyTorch-tensorflow]. It can be extended using NumPy, Scipy
 	 [@fa18-523-57-Scipy] and many other libraries
-	 [@fa18-523-57-PyTorch-Extensions]. Examples on extending
-	 PyTorch through Scipy and NumPy can be found at
-	 [@fa18-523-57-PyTorch-Extensions]
+	 [@fa18-523-57-PyTorch-Extensions]. Examples of extending PyTorch through
+	 Scipy and NumPy can be found at [@fa18-523-57-PyTorch-Extensions].
 
 ## Drawbacks of PyTorch
 
@@ -297,11 +296,11 @@ outperforms PyTorch [@fa18-523-57-PyTorch-tensorflow].
 	 translating the input data into a format which can be easily transferred
 	 across different platforms [@fa18-523-57-Serialization]. This capability in
 	 TensorFlow is better than PyTorch that it even is capable of saving the
-	 graphs can be saved as well. These graphs can easily be loading into
+	 graphs can be saved as well. These graphs can easily be loaded into
 	 different languages like C++ and Java. This enables the deployments to not
 	 depend on Python alone [@fa18-523-57-PyTorch-tensorflow].
 3. Deployment is an activity which makes a code available to be used on a system
 	 where the code is placed. Since the code developed in TensorFlow can be
-	 easily saved in a format which can be used in different languages, TensorFlow
-	 code can be easily deployed even in mobile applications
+	 easily saved in a format which can be used in different languages, its code
+	 can be easily deployed even in mobile applications
 	 [@fa18-523-57-PyTorch-tensorflow].
