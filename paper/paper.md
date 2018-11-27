@@ -91,7 +91,7 @@ tensor, a tensor with 4 dimensions is called a 4-D tensor and so on
 computing process and calculation time on matrix operations when compared to
 existing NumPy's ndarrays [@fa18-523-57-PyTorch].
 
-### Computation Graph
+### Computational Graph
 
 A computational graph [@fa18-523-57-graph] is an internal representation of the
 operations performed during the neural nets training. It is also called a data
