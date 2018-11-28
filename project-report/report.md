@@ -1,16 +1,16 @@
-# Historical Storm Data Analysis with HBase :hand: fa18-523-57, fa18-523-58
-
-| github: [:cloud:](https://github.com/cloudmesh-community/fa18-523-58/blob/master/project-report/report.md)
+# Historical Storm Data Analysis :hand: fa18-523-57 fa18-523-58
 
 
-
-Divya Rajendran, Pramod Duvvuri
-
-October 13, 2018
+| Divya Rajendran, Pramod Duvvuri
+| divrajen@iu.edu, vduvvuri@iu.edu
+| Indiana University, Indiana University
+| hid: fa18-523-57 fa18-523-58
+| github: [:cloud:](https://github.com/cloudmesh-community/fa18-523-57/blob/master/project-report/report.md)
+| code: [:cloud:](https://github.com/cloudmesh-community/fa18-523-57/tree/master/project-code)
 
 ---
 
-Keywords: E534, Data Visualization, Big Data Technologies, HBase, Python
+Keywords: E534, Data Visualization, Data Analysis, Azure Cosmos DB, PySpark, Machine Learning
 
 ---
 
@@ -46,51 +46,22 @@ We have identified an earlier work on tropical storm data using R by Stoltzman c
 
 1. Python is an object-oriented programming language we plan to use in this project [@fa18-523-57-Python]
 
-2. Apache HBase is a graph database which runs onHadoop HDFS, we plan to utilize this database to save our huge data and work on [@fa18-523-57-Apache_HBase].
+2. The data is being stored on an Azure Cosmos DB instance and we will be using Mongo API to connect and retrieve the data
 
-3. Matplotlib is a 2D visualization library containing plotly which gives us publication ready images and we aim to utilize for identifying correlation between various attributes [@fa18-523-57-matplotlib].
+3. Matplotlib is a 2D visualization library containing plotly which gives us publication ready images and we aim to utilize for identifying correlation between various attributes [@fa18-523-57-matplotlib]
 
-4. Seaborn is a visualization tool based on Matplotlib used to draw attractive statistical plots and we aim to show the change in number of storms per year [@fa18-523-57-Seaborn].
+4. Seaborn is a visualization tool based on Matplotlib used to draw attractive statistical plots and we aim to show the change in number of storms per year [@fa18-523-57-Seaborn]
 
-5. Altair is a statistically aimed visualization library which produces output plots which are easily shown on a website [@fa18-523-57-Altair].
+5. Altair is a statistically aimed visualization library which produces output plots which are easily shown on a website [@fa18-523-57-Altair]
 
-6. D3.js is a visualization library based on Javascript which is vastlyy implemented per SVG and HTML formats [@fa18-523-57-D3js].
+## Visualization
 
-## Visualization Samples
+This section will contain visualizations of the data and the inferences we draw from them. This section will mostly be data analysis.
 
-### Visualization 1
-
-Image here
-
-![Basic_Plot:o: not using labels check samples](images/Basic_Plot.png)
-
-### Visualization 2
-
-Image here
-
-<!---  ![Category_wise_Storms](images/Storms_per_category_plot.png) -->
-
-### Visualization 3
-
-Image here
-
-<!---  ![Heat_Map_of_storm_concentration](images/Heat_map_plot.png) -->
-
-### Visualization 4
-
-Image here
-
-<!--- ![Correlation_between_attributes](images/relationship_plot.png) -->
-
-### Visualization 5
-
-Image here
-
-<!--- ![Geographic](images/Geographic_Plot.png) -->
 
 ## Summary
 
-This section will contain the inference and conclusions we draw after visualizing the dataset used in this project
+This section will contain the inference and conclusions we draw after completing this project
 
 ## Future Work
 
@@ -98,10 +69,12 @@ In this project, our main aim was to visualize the dataset. After visualizing an
 
 ## Acknowledgements
 
-The authors would like to thank Dr. Gregor von Laszewski for giving the opportunity to work on this project and for providing valuable feedback during the duration of our project. The authors would also like to thank the associate instructors of this class for their help and prompt responses to our questions on Piazza.
+The authors would like to thank Dr. Gregor von Laszewski for giving the opportunity to work on this project and for providing valuable feedback during the duration of our project. The authors would also like to thank the associate instructors of this class for their help and prompt responses to our questions on Piazza. The authors would also like to thank Microsoft for providing a free trail of Azure.
 
 ## Bibliography
 
+TBD
+
 ## Work Breakdown
 
-The authors Divya Rajendran and Pramod Duvvuri have contributed equally in preparing this draft. We shall co-ordinate to equally divide the work that is required to complete the project and the final report before the deadline in December, 2018. Our contributions towards the completion of the project shall be updated in our respective notebook markdown files in our respective git repositories and a summary of our individual contributions shall be added in the final report.
+The authors Divya Rajendran and Pramod Duvvuri have contributed equally in preparing this report. We shall co-ordinate to equally divide the work that is required to complete the project and the final report before the deadline in December, 2018. Our contributions towards the completion of the project shall be updated in our respective notebook markdown files in our respective git repositories and a summary of our individual contributions shall be added in the final report.
