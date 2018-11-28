@@ -34,19 +34,11 @@ The data set for the various storms in Asia Pacific region for the years between
 
 We have identified an earlier work on tropical storm data using R by Stoltzman consulting LLC and are planning to use it as a base to visualize our data using Python[@fa18-523-57-related-work].
 
-### Visualization
-
-1. Category of storms in different latitude and longitude is visualized to identify the variation in category of storms in those location.
-2. Category of storms in different regions is visualized to check the correlation between them.
-3. Correlation between Speed, pressure and category type is identified by visually analyzing them.
-4. Correlation between latitude, longitude and speed, pressure is to be explored.
-5. Concentration of storms in different regions should be visually explored.
-
-## Technologies To Be Used
+## Technologies Used
 
 1. Python is an object-oriented programming language we plan to use in this project [@fa18-523-57-Python]
 
-2. The data is being stored on an Azure Cosmos DB instance and we will be using Mongo API to connect and retrieve the data
+2. The data is being stored on an Microsoft Azure Cosmos DB instance and we will be using Mongo API to connect and retrieve the data
 
 3. Matplotlib is a 2D visualization library containing plotly which gives us publication ready images and we aim to utilize for identifying correlation between various attributes [@fa18-523-57-matplotlib]
 
@@ -56,8 +48,13 @@ We have identified an earlier work on tropical storm data using R by Stoltzman c
 
 ## Visualization
 
-This section will contain visualizations of the data and the inferences we draw from them. This section will mostly be data analysis.
+This section will contain visualizations of the data and the inferences we draw from them. This section will mostly be data analysis. Here are few questions we hope to answer with our analysis of the data.
 
+1. Category of storms in different latitude and longitude is visualized to identify the variation in category of storms in those location.
+2. Category of storms in different regions is visualized to check the correlation between them.
+3. Correlation between Speed, pressure and category type is identified by visually analyzing them.
+4. Correlation between latitude, longitude and speed, pressure is to be explored.
+5. Concentration of storms in different regions should be visually explored.
 
 ## Summary
 
@@ -67,13 +64,9 @@ This section will contain the inference and conclusions we draw after completing
 
 In this project, our main aim was to visualize the dataset. After visualizing and making inferences, we would like to propose a model that uses machine learning pattern in our data. We hope to use unsupervised machine learning algorithms to find clusters in our data. This might help us identify further patterns in the data that could not have been possible with just plain visualization of the data. The main problem that we have identified in building such a model is the availability of resources required to run the algorithm without any interruption. Using a local computer resources for running such a model would not be feasible. Hence, we hope to deploy such a model in the cloud and utilize its power and resources for machine learning.
 
-## Acknowledgements
+## Acknowledgement
 
 The authors would like to thank Dr. Gregor von Laszewski for giving the opportunity to work on this project and for providing valuable feedback during the duration of our project. The authors would also like to thank the associate instructors of this class for their help and prompt responses to our questions on Piazza. The authors would also like to thank Microsoft for providing a free trail of Azure.
-
-## Bibliography
-
-TBD
 
 ## Work Breakdown
 
