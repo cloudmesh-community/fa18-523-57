@@ -81,6 +81,6 @@ pip install folium
 pip install pymongo
 pip install seaborn
 ```
-6. Run the Code files in the following order:
+6. Run the Code files in the following order
    6.1. Exploratory Analysis of Storm Data.ipynb
    6.2. Machine Learning.ipynb
