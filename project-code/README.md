@@ -46,7 +46,7 @@ $ git clone https://github.com/cloudmesh-community/fa18-523-57.git
 
     These are the mandatory fields before the instance can be created. The instance takes a few minutes to be created and the Azure Portal will notify you once it has been created.
 
-   3.3. Once we have our instance up and running now we can go ahead and create a    database *test* in our project instance and a collection *storm_data* before we can start to import our data into the Cosmos DB instance using the Mongo API. To create a new database and collection in our Cosmos DB instance we need to navigate to our instance which can be seen on the *Dashboard*. Click on the tab *Data Explorer* on the left hand pane and we should be able to see the GUI option to create a new database. Click on it and create a new database named *test*. Once this step is finished we can create a new collection in our test database. Call the collection *storm_data*.
+   3.3. Once we have our instance up and running now we can go ahead and create a    database *test* in our project instance and a collection *storm_data* before we can start to import our data into the Cosmos DB instance using the *Mongo API*. To create a new database and collection in our Cosmos DB instance we need to navigate to our instance which can be seen on the *Dashboard*. Click on the tab *Data Explorer* on the left hand pane and we should be able to see the GUI option to create a new database. Click on it and create a new database named *test*. Once this step is finished we can create a new collection in our test database. Call the collection *storm_data*.
 
    3.4. Importing data into our data was a challenge since there was no easy one-button click to do this. To import we need to connect to our Cosmos DB instance using the Mongo Shell, when in the options section of your Cosmos DB instance navigate to the *Connection String* tab and copy the primary connection string to our instance, we can use this connection string to connect to our instance and import data into it. The below command requires you have Mongo DB installed and configured on your machine. Create a new file names *cosmos_db.config* and save it in the code directory of our project. This *cosmos_db.config* file should contain the primary connection string we just copied earlier, we shall use this file to connect to our Cosmos DB instance from our Jupyter Notebook. This config file ensures our credentials are not publicly exposed when our code is pushed onto Github.
 
@@ -84,4 +84,5 @@ pip install seaborn
 6. Run the Code files in the following order
 
    6.1. Exploratory Analysis of Storm Data.ipynb
+   
    6.2. Machine Learning.ipynb
