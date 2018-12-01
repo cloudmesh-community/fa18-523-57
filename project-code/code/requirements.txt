@@ -11,7 +11,7 @@ entrypoints==0.2.3
 folium==0.7.0
 idna==2.7
 ipykernel==5.1.0
-ipython==7.1.1
+ipython==7.2.0
 ipython-genutils==0.2.0
 ipywidgets==7.4.2
 jedi==0.13.1
@@ -37,11 +37,9 @@ pickleshare==0.7.5
 prometheus-client==0.4.2
 prompt-toolkit==2.0.7
 ptyprocess==0.6.0
-py4j==0.10.7
-Pygments==2.2.0
+Pygments==2.3.0
 pymongo==3.7.2
 pyparsing==2.3.0
-pyspark==2.4.0
 python-dateutil==2.7.5
 pytz==2018.7
 pyzmq==17.1.2
