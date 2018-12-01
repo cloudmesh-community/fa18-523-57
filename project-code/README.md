@@ -6,7 +6,7 @@ This project is divided into two components. In the first part, we visualize and
 
 ## Data:
 
-* storm_data.csv - This is the data file which is located in the *data* (https://github.com/cloudmesh-community/fa18-523-57/tree/master/project-code/data) folder. This file contains more than 190,000 rows. The data will be stored in a Cosmos DB instance and then used for visualizations and applying machine learning techniques
+* storm_data.csv - This is the data file which is located in the *data*(https://github.com/cloudmesh-community/fa18-523-57/tree/master/project-code/data) folder. This file contains more than 190,000 rows. The data will be stored in a Cosmos DB instance and then used for visualizations and applying machine learning techniques
 
 ## Requirements
 
@@ -33,14 +33,15 @@ This section will help setup a Microsoft Azure account and import data into the 
 $ git clone https://github.com/cloudmesh-community/fa18-523-57.git
 ```
 
-3. Microsoft Azure link (https://portal.azure.com/) offers 200$ credit every month for 12 months for free. We signed up for this trial using an email account. The next step is to create a default resource group before we can create an instance of the Cosmos DB.
+3. Microsoft Azure link(https://portal.azure.com/) offers 200$ credit every month for 12 months for free. We signed up for this trial using an email account. The next step is to create a default resource group before we can create an instance of the Cosmos DB.
+
 3.1 Click on *Create a Resource* in Azure Portal page on the left hand pane.
 3.2 Under the *Basic* tab use the default resource group you created in Step 1 and the values for the other fields are as follows:
-    Subscription: Free Trial
-    Resource Group: <give-any-name>
-    Account Name: <give-any-name>
-    API: MongoDB
-    Location: Central US
+    * Subscription: Free Trial
+    * Resource Group: <give-any-name>
+    * Account Name: <give-any-name>
+    * API: MongoDB
+    * Location: Central US
 
 These are the mandatory fields before the instance can be created. The instance takes a few minutes to be created and the Azure Portal will notify you once it has been created.
 
@@ -83,5 +84,5 @@ pip install seaborn
 ```
 6. Run the Code files in the following order:
 
-6.1 Exploratory Analysis of Storm Data.ipynb
-6.2 Machine Learning.ipynb
+6.1. Exploratory Analysis of Storm Data.ipynb
+6.2. Machine Learning.ipynb
