@@ -1,4 +1,4 @@
-﻿
+
 # Historical Storm Data Analysis with Cosmos DB
 
 | Authors: *Divya Rajendran, Pramod Duvvuri*
@@ -55,7 +55,7 @@ This section will help setup a Microsoft Azure account and import data into the 
    3.6. Run in your bash
            ```
            $ mongo {your-connection-string}
-           ```
+       ```
    
    3.7. Run in your bash 
    ```
