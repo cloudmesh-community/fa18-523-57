@@ -62,7 +62,7 @@ Please replace the placeholders with the relevant information of your instance a
 
 4. The authors used *virtualenv* to create a folder for the project and run the code, the *requirements.txt* file contains all the python packages required to run the code. This was create using the pip freeze command in the virtual environment.
 
-5. The following packages need to be installed for the machine learning algorithms:
+5. The following python packages need to be installed before we can run the code in the Jupyter Notebooks. To simplify this process we provide to options, the user can install using the requirements text file or run the commands in the CLI to install these packages separately.
 
 ```bash
 $ pip install -r requirements.txt
@@ -82,5 +82,6 @@ pip install pymongo
 pip install seaborn
 ```
 6. Run the Code files in the following order:
+
 6.1 Exploratory Analysis of Storm Data.ipynb
 6.2 Machine Learning.ipynb
