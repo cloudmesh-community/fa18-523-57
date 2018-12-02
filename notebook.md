@@ -81,3 +81,11 @@
 
 ## Week Fri 11/23/18 - 11/29/18 ##
 * Working on project
+* Worked on different visualization forms for storm data
+* Tried to get storm tracks to be plotted, could not due to lack of time information.
+* Finished working on visualizations and got inferences from data
+* Attended online office hours
+* Updated section headings for paper
+
+## Week Fri 11/30/18 - 12/06/18 ##
+* Working on project report
