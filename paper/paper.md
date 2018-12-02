@@ -7,7 +7,7 @@
 | github: [:cloud:](https://github.com/cloudmesh-community/fa18-523-57/blob/master/paper/paper.md)
 
 
-:o: you must make your section referencing labels more unique as others could have chapters with the same labels, maybe add pytorch- as prefix
+:o: you must make your section referencing labels more unique as others could have chapters with the same labels, maybe add pytorch- as prefix - Updated
 
 ---
 
