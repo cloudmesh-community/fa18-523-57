@@ -9,6 +9,8 @@
 * do not remove the :exclamation: this is for the instructors a sign that we
 	reviewed
 
+:o: you must make your section referencing labels more unique as others could have chapters with the same labels
+
 ---
 
 Keywords: Hid fa18-523-57, [Deep Learning](#Deep-Learning), gradient descents, Python, [Neural Networks](#Neural-Networks), [Tensors](#Tensors), [Computational Graph](#Computational-Graph),
