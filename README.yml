@@ -16,8 +16,8 @@ paper:
     title: PyTorch
     url: https://github.com/cloudmesh-community/fa18-523-57/blob/master/paper/paper.md
 project: 
-  - keyword: Storm MongoDB
-    title: Historical Storm Data Analysis with MongoDB
+  - keyword: Visualization, Cosmos DB, Machine Learning
+    title: Historical Storm Data Analysis with CosmosDB
     url: https://github.com/cloudmesh-community/fa18-523-57/tree/master/project-report/report.md
     group: fa18-523-57
     code: https://github.com/cloudmesh-community/fa18-523-57/tree/master/project-code
