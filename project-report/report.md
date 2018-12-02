@@ -10,7 +10,7 @@
 
 ---
 
-Keywords: E534, Data Visualization, Data Analysis, Azure Cosmos DB, PySpark, Machine Learning
+Keywords: e534, hid fa18-523-57, fa18-523-58, [Data Visualization](#Visualization), Data Analysis, Cosmos DB, [Machine Learning](#Machine-Learning)
 
 ---
 
@@ -18,10 +18,9 @@ Keywords: E534, Data Visualization, Data Analysis, Azure Cosmos DB, PySpark, Mac
 
 The decisions people make these days are all data driven. The amount of data we collect has increased exponentially and this makes it harder to visualize and understand. We can overcome this hurdle by sampling or visualizing subsets of the data. The only thing one should remember is to pick a good sample of the data or to repeat the process of sampling and visualizing the data subset. In this project, we aim to visualize the historical storm dataset and make inferences from our visualizations.
 
-
 ## Introduction
 
-With the disastrous effects of the increasing number of storms all around the world, we thought of taking storm dataset for entire Asia Pacific region and visually analyze the effects of various variables on the storms. We want to check any patterns in the storm data and visualize them geographically so that it might help us to make useful inferences on the storm data. We have identified a data set on data.world[@fa18-523-57-DataSet] and we aim to identify the various correlations among the attributes and understand if they can help explain the change in frequency of the storms. Data World is a community where we find open datasets from various organizations containing varying data attributes according to the need. The data is saved in a graph database HBase. The output of our visualization is shown on jupyter notebook.
+The disastrous effects of the increasing number of storms all around the world, we thought of taking storm dataset for entire Asia Pacific region and visually analyze the effects of various variables on the storms. We want to check any patterns in the storm data and visualize them geographically so that it might help us to make useful inferences on the storm data. We have identified a data set on data.world[@fa18-523-57-DataSet] and we aim to identify the various correlations among the attributes and understand if they can help explain the change in frequency of the storms. Data World is a community where we find open datasets from various organizations containing varying data attributes according to the need. 
 
 
 ## Implementation
@@ -46,6 +45,8 @@ We have identified an earlier work on tropical storm data using R by Stoltzman c
 
 5. Altair is a statistically aimed visualization library which produces output plots which are easily shown on a website [@fa18-523-57-Altair]
 
+The data is stored in the cloud, we are using and instance of Microsoft Cosmos DB for storage. Cosmos DB is a NoSQL database. The output of our visualization is shown on jupyter notebook.
+
 ## Visualization
 
 This section will contain visualizations of the data and the inferences we draw from them. This section will mostly be data analysis. Here are few questions we hope to answer with our analysis of the data.
@@ -55,6 +56,12 @@ This section will contain visualizations of the data and the inferences we draw 
 3. Correlation between Speed, pressure and category type is identified by visually analyzing them.
 4. Correlation between latitude, longitude and speed, pressure is to be explored.
 5. Concentration of storms in different regions should be visually explored.
+
+## Machine Learning
+
+### Multinomial Naive Bayes
+
+Multinomial Naive Bayes (MNB) is a simple classifier that uses the Bayes Theorem and assumes independence between the features and is used for multinomially distributed data, since the data is represented in sparse matrix of word vectors this would be ideal for such scenarios. We shall use *sklearn.naive_bayes.MultinomialNB* implementation in our project. We have used various train/test splits to analyze the accuracy of our model. The same has been represented in terms of error in the plot below. The highest accuracy we got was when we used the 80/20 train-test split which gave us an accuracy of split gave us an accuracy of 13.4 % (rounded to nearest decimal point)
 
 ## Summary
 
