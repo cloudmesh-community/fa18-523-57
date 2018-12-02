@@ -11,7 +11,7 @@
 
 ---
 
-Keywords: Hid fa18-523-57, [Deep Learning](#Deep-Learning), gradient descents, Python, [Neural Networks](#Neural-Networks), [Tensors](#Tensors), [Computational Graph](#Computational-Graph),
+Keywords: Hid fa18-523-57, [Deep Learning](#PyTorch-DeepLearning), gradient descents, Python, [Neural Networks](#Neural-Networks), [Tensors](#Tensors), [Computational Graph](#Computational-Graph),
 [Autograd](#Autograd), [Auto Differentiation](#Auto-Differentiation), [Backpropagation](#Backpropagation)
 
 ---
@@ -58,7 +58,7 @@ the loss function and calculate the gradients for loss function
 Before we start using PyTorch, we need to have a background or working knowledge
 on the below concepts.
 
-### Deep Learning
+### Deep Learning {#PyTorch-DeepLearning}
 
 Deep Learning [@fa18-523-57-Deep-Learning-wiki] is a branch of Machine Learning
 which takes its inspiration from the function and structure of a human brain
