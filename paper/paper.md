@@ -58,7 +58,7 @@ the loss function and calculate the gradients for loss function
 Before we start using PyTorch, we need to have a background or working knowledge
 on the below concepts.
 
-### Deep Learning {:name="fa18-523-57-DeepLearning"}
+### <a name="fa18-523-57-DeepLearning"> Deep Learning </a>
 
 Deep Learning [@fa18-523-57-Deep-Learning-wiki] is a branch of Machine Learning
 which takes its inspiration from the function and structure of a human brain
