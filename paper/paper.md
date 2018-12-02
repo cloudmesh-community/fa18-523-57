@@ -9,7 +9,7 @@
 * do not remove the :exclamation: this is for the instructors a sign that we
 	reviewed
 
-:o: you must make your section referencing labels more unique as others could have chapters with the same labels
+:o: you must make your section referencing labels more unique as others could have chapters with the same labels, maybe add pytorch- as prefix
 
 ---
 
