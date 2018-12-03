@@ -1,4 +1,4 @@
-# Historical Storm Data Analysis :hand: fa18-523-57 fa18-523-58
+# Historical Storm Data Analysis with Cosmos DB :hand: fa18-523-57 fa18-523-58
 
 
 | Divya Rajendran, Pramod Duvvuri
@@ -16,7 +16,7 @@ Keywords: e534, hid fa18-523-57, fa18-523-58, [Data Visualization](#Visualizatio
 
 ## Abstract
 
-The decisions people make these days are all data driven. The amount of data we collect has increased exponentially and this makes it harder to visualize and understand. We can overcome this hurdle by sampling or visualizing subsets of the data. The only thing one should remember is to pick a good sample of the data or to repeat the process of sampling and visualizing the data subset. In this project, we aim to visualize the historical storm dataset and make inferences from our visualizations.
+The decisions people make these days are all data driven. The amount of data we collect has increased exponentially and this makes it harder to visualize and understand. We can overcome this hurdle by sampling and visualizing subsets of the data. Sampling refers to the process of collecting random subsets of the data. The only thing one should remember is to pick a good sample of the data or to repeat the process of sampling and visualizing the data subset. In this project, we visualized the historical storm dataset and obtained inferences from our visualizations.
 
 ## Introduction
 
@@ -27,23 +27,20 @@ The disastrous effects of the increasing number of storms all around the world, 
 
 ### Data set
 
-The data set for the various storms in Asia Pacific region for the years between 1956 and 2017. We would choose an initial subset of data to visualize locally and then implement the same visualizations on the entire data. The data set contains attributes like region, latitude, longitude, storm number, name, date and time, speed, pressure, category type.
+The data set for the various storms in Asia Pacific region for the years between 1956 and 2017. We have chosen an initial subset of data to visualize locally and then implement the same visualizations on the entire data. The data set contains attributes like region, latitude, longitude, type of category, name, date and hour, speed, and pressure. There are more than 190,000 rows in the dataset. We shall attempt to clean the data before we generate any visualizations.
 
 ### Related Work
 
-We have identified an earlier work on tropical storm data using R by Stoltzman consulting LLC and are planning to use it as a base to visualize our data using Python[@fa18-523-57-related-work].
+We have identified an earlier work on tropical storm data using R by Stoltzman consulting LLC and have used it as a base reference to visualize our data using Python [@fa18-523-57-related-work].
 
 ## Technologies Used
 
-1. Python is an object-oriented programming language we plan to use in this project [@fa18-523-57-Python]
-
-2. The data is being stored on an Microsoft Azure Cosmos DB instance and we will be using Mongo API to connect and retrieve the data
-
-3. Matplotlib is a 2D visualization library containing plotly which gives us publication ready images and we aim to utilize for identifying correlation between various attributes [@fa18-523-57-matplotlib]
-
-4. Seaborn is a visualization tool based on Matplotlib used to draw attractive statistical plots and we aim to show the change in number of storms per year [@fa18-523-57-Seaborn]
-
-5. Altair is a statistically aimed visualization library which produces output plots which are easily shown on a website [@fa18-523-57-Altair]
+1. Python is an object-oriented programming language we have utilized in this project [@fa18-523-57-Python].
+2. The data is being stored on an Microsoft Azure Cosmos DB instance and we will be using Mongo API to connect and retrieve the data.
+3. Matplotlib is a 2D visualization library containing plotly which gives us publication ready images and we aim to utilize for identifying correlation between various attributes [@fa18-523-57-matplotlib].
+4. Seaborn is a visualization tool based on Matplotlib used to draw attractive statistical plots and we aim to show the change in number of storms per year [@fa18-523-57-Seaborn].
+5. Altair is a statistically aimed visualization library which produces output plots which are easily shown on a website [@fa18-523-57-Altair].
+6. Folium is an interactive mapping tool which plots the data on a map based on the latitude and longitude values [@fa18-523-57-Folium].
 
 The data is stored in the cloud, we are using and instance of Microsoft Cosmos DB for storage. Cosmos DB is a NoSQL database. The output of our visualization is shown on jupyter notebook.
 
@@ -73,7 +70,7 @@ In this project, our main aim was to visualize the dataset. After visualizing an
 
 ## Acknowledgement
 
-The authors would like to thank Dr. Gregor von Laszewski for giving the opportunity to work on this project and for providing valuable feedback during the duration of our project. The authors would also like to thank the associate instructors of this class for their help and prompt responses to our questions on Piazza. The authors would also like to thank Microsoft for providing a free trail of Azure.
+The authors would like to thank Dr. Gregor von Laszewski for giving the opportunity to work on this project and for providing valuable feedback during the duration of our project. The authors would also like to thank the associate instructors of this class for their help and prompt responses to our questions on Piazza. The authors would also like to thank Microsoft for providing a free trial of Azure Cloud services.
 
 ## Work Breakdown
 
