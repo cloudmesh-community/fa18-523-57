@@ -28,7 +28,7 @@ With the disastrous effects of the increasing number of storms all around the wo
 
 The data set for the various storms in Asia Pacific region for the years between 1956 and 2017. We have chosen an initial subset of data to visualize locally and then implement the same visualizations on the entire data. The data set contains attributes like region, latitude, longitude, type of category, name, date and hour, speed, and pressure. There are more than 190,000 rows in the dataset. We clean the data for any duplicates, null values and any redundant data before we generate any visualizations.
 
-Our dataset contains five different regions surrounding the oceans like Indian Ocean, Atlantic Ocean, Southern Pacific Ocean, West Pacific Ocean, and Eastern Pacific Ocean and the regions are named according to the ocean covering the locations. We have four different storm types like S for Tropical Storms, H for Hurricanes, D for Depressions, and U for low pressure and high speed storms. 
+Our dataset contains five different regions surrounding the oceans like Indian Ocean, Atlantic Ocean, Southern Pacific Ocean, West Pacific Ocean, and Eastern Pacific Ocean and the regions are named according to the ocean covering the locations. We have four different storm types like S for Tropical Storms, H for Hurricanes, D for Depressions, and U for low pressure and high speed storms.
 
 ### Related Work
 
@@ -49,24 +49,44 @@ The data is stored in the cloud, we are using and instance of Microsoft Cosmos D
 This section will contain visualizations of the data and the inferences we draw from them. This section will mostly be data analysis. Here are few questions we hope to answer with our analysis of the data.
 
 1. We start with the basic relationship between the number of unique storms per Year
-  ![Unique Storms per Year](images/fa18_523_57_Storms_per_Year.PNG){#fig:storms_per_year}
-  We have plotted a linear relationship model between the number of storms and the storm year. We can see from the plot that the rate of increase number of unique storms through the years 2000 to 2010 and then reduce to the same rate as between the years 1950 to 1990. But, we cannot assume that the number of storms increased every year, we need to look at other factors such as correlation between other attributes describing the storms.
+
+    ![Storms per Year](images/fa18_523_57_Storms_per_Year.PNG){#fig:storms_per_year}
+
+    We have plotted a linear relationship model between the number of storms and the storm year. We can see from the plot that the rate of increase number of unique storms through the years 2000 to 2010 and then reduce to the same rate as between the years 1950 to 1990. But, we cannot assume that the number of storms increased every year, we need to look at other factors such as correlation between other attributes describing the storms.
 2. Number of Storms per basin
-  ![Unique Storms per Region](images/fa18_523_57_Storms_per_Basin.png){#fig:storms_per_basin}
-  We plotted a horizontal bar graph between number of storms occured in each region
-2. Number of storms per year per region
-  ![Unique Storms per Region](images/fa18_523_57_Storms_per_year_region.png){#fig:storms_per_year_per_region}
-  We took another step and plotted a bar graph between number of storms
-3. Number of storms per region per type of storm
-  ![Unique Storms per Region](images/fa18_523_57_Storms_per_year_region_type.png){#fig:storms_year_region_type}
-4. Relationship between wind and pressure
-  ![Unique Storms per Region](images/fa18_523_57_pressure_speed_histogram.png){#fig:relation_wind_press_region}
-5. Correlation between Speed, pressure and category type is identified by visually analyzing them.
-  ![Unique Storms per Region](images/fa18_523_57_pressure_speed_type_region.png){#fig:relation_wind_pressure_region}
-6. Scatter Plot of Altantic Ocean region.
-  ![Unique Storms per Region](images/fa18_523_57_ScatterPlot_A.png){#fig:Scatter_Plot_Atlantic_Ocean}
-7. Heat Map of Easter Pacific region
-  ![Unique Storms per Region](images/fa18_523_57_HeatMapE.png){#fig:Heat_Map_Eastern_Pacific}
+
+    ![Storms per Region](images/fa18_523_57_Storms_per_Basin.png){#fig:storms_per_basin}
+
+    We plotted a horizontal bar graph between number of storms occurred in each region and identified that Western Pacific Ocean region had higher number of storms than in other regions.
+3. Number of storms per year per region
+
+    ![Storms per Year and  Region](images/fa18_523_57_Storms_per_year_region.png){#fig:storms_per_year_per_region}
+
+    We plotted a bar graph between number of storms per year colored by the region in which the storm was observed. We found that the storms in the region "West Pacific Ocean", were higher than the storms in region "Eastern Pacific Ocean" during the years 1950 to 1965 and decreased during the years 1965 to 1994. As per our plot, the regions "West Pacific Ocean" and "Eastern Pacific Ocean" had higher number of storms during 1950 and 2000.
+4. Number of storms per region per type of storm
+
+    ![Storms per Region and type over the years](images/fa18_523_57_Storms_per_year_region_type.png){#fig:storms_year_region_type}
+
+    We took another step and plotted a pairwise plot between the storm count per region and category type over the years and we observed that in all the five regions, we had sizable number of storms of types D, H and S when compared to the storm type U.
+5. Relationship between wind and pressure
+
+    ![relationship between wind and pressure](images/fa18_523_57_pressure_speed_histogram.png){#fig:relation_wind_press_region}
+
+    When we plot the linear relationship plot between speed and pressure along with their distributions, we can see that the pressure distribution looks more normal. We clearly observe that the pressure is inversely proportional to speed, that is, higher the speeds lower the pressure and vice-a-versa.
+6. Correlation between Speed, pressure and category type is identified by visually analyzing them.
+    ![Correlation between speed, pressure and type of storm](images/fa18_523_57_pressure_speed_type_region.png){#fig:relation_wind_pressure_region}
+
+    When we plotted the factted plot of wind speed, pressure and category of storm type we observed that the type "D- Depression" storms are of higher pressure and lower speed and storm type "U" is of lower pressure and higher speed. We also observed that the storms of type "S - Tropical Storms" are more prevalent in region "West Pacific Ocean" and are of lesser speeds when compared to other types of storms.
+7. Scatter Plot of Atlantic Ocean region
+
+    ![Scatter Plot of storm count in Atlantic Ocean region](images/fa18_523_57_ScatterPlot_A.png){#fig:Scatter_Plot_Atlantic_Ocean}
+
+    We have sub-sampled our data and plotted a scatter plot on a map to see the distribution of storms over the regions. We have created an interactive map, which can show us the scatter plot for different type of storms. The code for which is available in our jupyter notebook.
+8. Heat Map of Eastern Pacific region
+
+    ![Heat Map of Eastern Pacific Region](images/fa18_523_57_HeatMapE.png){#fig:Heat_Map_Eastern_Pacific}
+
+    When we plotted a heat map for Eastern Pacific region, we see that the major portion of  storms are concentrated in the ocean itself and then as they make landfall the storms decrease in number.
 
 ## Machine Learning
 
