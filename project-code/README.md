@@ -45,6 +45,15 @@ This section will help setup a Microsoft Azure account and import data into the 
     *  Location: Central US
 
     These are the *mandatory* fields before the instance can be created. The instance takes a few minutes to be created and the Azure Portal will notify you once it has been created.
+    
+     These are the *mandatory* fields before the instance can be created. The instance takes a few minutes to be created and the Azure Portal will notify you once it has been created.
+    
+     We have added a new Azure Deployment Template in the project-code directory that will help automate the instance creation or the *above mentioned two steps*. Steps to run the template:
+     * Install Azure CLI on your machine ( Any Operating System )
+     * ```bash $ cd Azure\ Setup\ Template/ ```
+     * ```bash $ sh deploy.sh ```
+     * Input your Azure Cloud Subscription ID when prompted in the CLI
+     * The template will setup the Cosmos DB instance and you are now ready to import the data using Mongo API
 
    3.3. Once we have our instance up and running now we can go ahead and create a    database *test* in our project instance and a collection *storm_data* before we can start to import our data into the Cosmos DB instance using the Mongo API. To create a new database and collection in our Cosmos DB instance we need to navigate to our instance which can be seen on the *Dashboard*. Click on the tab *Data Explorer* on the left hand pane and we should be able to see the GUI option to create a new database. Click on it and create a new database named *test*. Once this step is finished we can create a new collection in our test database. Call the collection *storm_data*.
 
