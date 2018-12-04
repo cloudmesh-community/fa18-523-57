@@ -60,7 +60,7 @@ This section contains visualizations of the data and the inferences we draw from
 
     ![Storms per Year and  Region](images/fa18_523_57_Storms_per_year_region.png){#fig:storms_per_year_per_region}
 
-    We plotted a bar graph between number of storms per year colored by the region in which the storm was observed. We found that the storms in the region "West Pacific Ocean", were higher than the storms in region "Eastern Pacific Ocean" during the years 1950 to 1965 and decreased during the years 1965 to 1994. As per our plot, the regions "West Pacific Ocean" and "Eastern Pacific Ocean" had higher number of storms during 1950 and 2000.
+    We plotted a bar graph between number of storms per year colored by the region in which the storm was observed. The storms were increasing each year in every region and we found that the storms in the region "West Pacific Ocean", were higher than the storms in region "Eastern Pacific Ocean" during the years 1950 to 1965 and decreased during the years 1965 to 1994. As per our plot, the regions "West Pacific Ocean" and "Eastern Pacific Ocean" had higher number of storms during 1950 and 2000.
 4. Number of storms per region per type of storm
 
     ![Storms per Region and type over the years](images/fa18_523_57_Storms_per_year_region_type.png){#fig:storms_year_region_type}
@@ -81,7 +81,7 @@ This section contains visualizations of the data and the inferences we draw from
 
     When we plotted a heat map for Eastern Pacific region, we see that the major portion of  storms are concentrated in the ocean itself and then as they make landfall the storms decrease in number.
 
-We have created an interactive map showing the distribution of different storm categories and regions. The interactive html files are available in our <> folder and code for the interactive maps is available in our jupyter notebook.
+We have created an interactive map showing the distribution of different storm categories and regions. The interactive html files are available in our <https://github.com/cloudmesh-community/fa18-523-57/tree/master/project-report/images/interactive> folder and the code for these interactive maps is available in our jupyter notebook.
 
 ## Machine Learning
 
@@ -91,7 +91,7 @@ Multinomial Naive Bayes (MNB) is a simple classifier that uses the Bayes Theorem
 
 ## Summary
 
-We identified that storms increased each year with different points of origination and that there were many storms in Western Pacific ocean region than in other regions. We have shown a
+From our visualizations we identified that storms increased each year with different points of origination and that there were many storms in Western Pacific ocean region than in other regions. We identified that the pressure and speed have an effect on storm type and they separate storms into Hurricanes, Tropical Storms, Depressions and low pressure storms. We identified that the higher speed storms are more likely to occur in West Pacific Ocean region.
 
 ## Future Work
 
