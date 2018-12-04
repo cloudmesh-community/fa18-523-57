@@ -47,16 +47,18 @@ The data is stored in the cloud, we are using and instance of Microsoft Cosmos D
 This section will contain visualizations of the data and the inferences we draw from them. This section will mostly be data analysis. Here are few questions we hope to answer with our analysis of the data.
 
 1. We start with the basic relationship between the number of unique storms per Year.
-   ![Unique Storms per Year](images/fa18_523_57_Storms_per_Year.PNG){#fig:storms_per_year}
+  ![Unique Storms per Year](images/fa18_523_57_Storms_per_Year.PNG){#fig:storms_per_year}
 2. Number of storms per year per region.
-   ![Unique Storms per Region](images/fa18_523_57_Storms_per_year_region.png){#fig:storms_per_year_per_region}
+  ![Unique Storms per Region](images/fa18_523_57_Storms_per_year_region.png){#fig:storms_per_year_per_region}
 3. Number of storms per region per type of storm
-   ![Unique Storms per Region](images/fa18_523_57_Storms_per_year_region_type.png){#fig:storms_year_region_type}
+  ![Unique Storms per Region](images/fa18_523_57_Storms_per_year_region_type.png){#fig:storms_year_region_type}
 4. Relationship between wind and pressure
-   ![Unique Storms per Region](images/fa18_523_57_pressure_speed_histogram.png){#fig:relation_wind_pressure}
+  ![Unique Storms per Region](images/fa18_523_57_pressure_speed_histogram.png){#fig:relation_wind_pressure}
 5. Correlation between Speed, pressure and category type is identified by visually analyzing them.
-   ![Unique Storms per Region](images/fa18_523_57_pressure_speed_type_region.png){#fig:relation_wind_pressure_region}
+  ![Unique Storms per Region](images/fa18_523_57_pressure_speed_type_region.png){#fig:relation_wind_pressure_region}
 6. Scatter Plot of Altantic Ocean region.
+  <?php include('images/fa18_523_57_scatterplot1.html'); ?>
+
    <iframe src="images/fa18_523_57_scatterplot1.html" seamless></iframe>
 
 ## Machine Learning
