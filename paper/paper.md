@@ -11,7 +11,7 @@
 
 ---
 
-Keywords: Hid fa18-523-57, [Deep Learning](#fa18-523-57-DeepLearning), gradient descents, Python, [Neural Networks](#fa18-523-57-NeuralNetworks), [Tensors](#fa18-523-57-Tensors), [Computational Graph](#fa18-523-57-ComputationalGraph),
+Keywords: [Deep Learning](#fa18-523-57-DeepLearning), gradient descents, Python, [Neural Networks](#fa18-523-57-NeuralNetworks), [Tensors](#fa18-523-57-Tensors), [Computational Graph](#fa18-523-57-ComputationalGraph),
 [Autograd](#fa18-523-57-Autograd), [Auto Differentiation](#fa18-523-57-AutoDifferentiation), [Backpropagation](#fa18-523-57-Backpropagation)
 
 ---
