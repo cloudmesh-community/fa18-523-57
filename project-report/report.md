@@ -48,18 +48,16 @@ This section will contain visualizations of the data and the inferences we draw 
 
 1. We start with the basic relationship between the number of unique storms per Year.
    ![Unique Storms per Year](images/fa18_523_57_Storms_per_Year.PNG){#fig:storms_per_year}
-2. We check the number of storms in each ocean region.
-   ![Unique Storms per Region](images/fa18_523_57_Storms_per_Region.png){#fig:storms_per_region}
-3. Number of storms per year per region.
+2. Number of storms per year per region.
    ![Unique Storms per Region](images/fa18_523_57_Storms_per_year_region.png){#fig:storms_per_year_per_region}
-4. Number of storms per region per type of storm
+3. Number of storms per region per type of storm
    ![Unique Storms per Region](images/fa18_523_57_Storms_per_year_region_type.png){#fig:storms_per_year_per_region_per_type}
-5. Relationship between wind and pressure
+4. Relationship between wind and pressure
    ![Unique Storms per Region](images/fa18_523_57_pressure_speed_histogram.png){#fig:relation_wind_pressure}
-6. Correlation between Speed, pressure and category type is identified by visually analyzing them.
+5. Correlation between Speed, pressure and category type is identified by visually analyzing them.
    ![Unique Storms per Region](images/fa18_523_57_pressure_speed_type_region.png){#fig:relation_wind_pressure_region}
-7. Scatter Plot of Altantic Ocean region.
-   ![Unique Storms per Region](images/fa18_523_57_scatterplot1.html){#fig:scatter_plot1}
+6. Scatter Plot of Altantic Ocean region.
+   <iframe src="images/fa18_523_57_scatterplot1.html" seamless></iframe>
 
 ## Machine Learning
 
