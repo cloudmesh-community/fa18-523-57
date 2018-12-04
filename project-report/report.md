@@ -89,7 +89,7 @@ When we plotted the facetted plot of wind speed, pressure, and category of storm
 
 When we plotted a heat map for Eastern Pacific region, we see that the major portion of storms are concentrated in the ocean itself and then as they make landfall the storms decrease in number.
 
-We have created an interactive map showing the distribution of different storm categories and regions. The interactive HTML files are available in our <https://github.com/cloudmesh-community/fa18-523-57/tree/master/project-report/images/interactive> folder and the code for these interactive maps is available in our Jupiter notebook.
+We have created an interactive map showing the distribution of different storm categories and regions. The interactive HTML files are available in this [*folder*](https://github.com/cloudmesh-community/fa18-523-57/tree/master/project-report/images/interactive) and the code for these interactive maps is available in our Jupiter notebook.
 
 ## <a name="fa18-523-57-58-ML"> Machine Learning </a>
 
