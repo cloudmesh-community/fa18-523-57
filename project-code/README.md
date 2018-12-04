@@ -46,8 +46,6 @@ This section will help setup a Microsoft Azure account and import data into the 
 
     These are the *mandatory* fields before the instance can be created. The instance takes a few minutes to be created and the Azure Portal will notify you once it has been created.
     
-     These are the *mandatory* fields before the instance can be created. The instance takes a few minutes to be created and the Azure Portal will notify you once it has been created.
-    
      We have added a new Azure Deployment Template in the project-code directory that will help automate the instance creation or the *above mentioned two steps*. Steps to run the template:
      * Install Azure CLI on your machine ( Any Operating System )
      * ```bash $ cd Azure\ Setup\ Template/ ```
