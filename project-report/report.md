@@ -20,14 +20,13 @@ The decisions people make these days are all data driven. The amount of data we 
 
 ## Introduction
 
-The disastrous effects of the increasing number of storms all around the world, we thought of taking storm dataset for entire Asia Pacific region and visually analyze the effects of various variables on the storms. We want to check any patterns in the storm data and visualize them geographically so that it might help us to make useful inferences on the storm data. We have identified a data set on data.world[@fa18-523-57-DataSet] and we aim to identify the various correlations among the attributes and understand if they can help explain the change in frequency of the storms. Data World is a community where we find open datasets from various organizations containing varying data attributes according to the need. 
-
+With the disastrous effects of the increasing number of storms all around the world, we thought of taking storm dataset for entire Asia Pacific region and visually analyze the effects of various variables on the storms. We want to check any patterns in the storm data and visualize them geographically so that it might help us to make useful inferences on the storm data. We have identified a data set on data.world[@fa18-523-57-DataSet], a community where we find open datasets from various organizations containing varying data attributes according to the need. We try to identify the various correlations among the attributes and understand if they can help explain the change in frequency of the storms.  
 
 ## Implementation
 
 ### Data set
 
-The data set for the various storms in Asia Pacific region for the years between 1956 and 2017. We have chosen an initial subset of data to visualize locally and then implement the same visualizations on the entire data. The data set contains attributes like region, latitude, longitude, type of category, name, date and hour, speed, and pressure. There are more than 190,000 rows in the dataset. We shall attempt to clean the data before we generate any visualizations.
+The data set for the various storms in Asia Pacific region for the years between 1956 and 2017. We have chosen an initial subset of data to visualize locally and then implement the same visualizations on the entire data. The data set contains attributes like region, latitude, longitude, type of category, name, date and hour, speed, and pressure. There are more than 190,000 rows in the dataset. We clean the data for any duplicates, null values and any redundant data before we generate any visualizations.
 
 ### Related Work
 
@@ -36,19 +35,19 @@ We have identified an earlier work on tropical storm data using R by Stoltzman c
 ## Technologies Used
 
 1. Python is an object-oriented programming language we have utilized in this project [@fa18-523-57-Python].
-2. The data is being stored on an Microsoft Azure Cosmos DB instance and we will be using Mongo API to connect and retrieve the data.
-3. Matplotlib is a 2D visualization library containing plotly which gives us publication ready images and we aim to utilize for identifying correlation between various attributes [@fa18-523-57-matplotlib].
-4. Seaborn is a visualization tool based on Matplotlib used to draw attractive statistical plots and we aim to show the change in number of storms per year [@fa18-523-57-Seaborn].
-5. Altair is a statistically aimed visualization library which produces output plots which are easily shown on a website [@fa18-523-57-Altair].
-6. Folium is an interactive mapping tool which plots the data on a map based on the latitude and longitude values [@fa18-523-57-Folium].
+2. The data is being stored on an Microsoft Azure Cosmos DB [@fa18-523-57-Azure] instance and we will be using Mongo API to connect and retrieve the data.
+3. Matplotlib is a 2D visualization library containing a module plotly which gives us publication ready images and we aim to utilize this library to show basic correlation between attributes [@fa18-523-57-matplotlib].
+4. Seaborn is a visualization tool based on Matplotlib used to draw attractive statistical plots and we aim to show the change in number of storms per year and other advanced correlations between different attributes [@fa18-523-57-Seaborn].
+5. Folium is an interactive mapping tool which plots the data on a map based on the latitude and longitude values [@fa18-523-57-Folium].
 
-The data is stored in the cloud, we are using and instance of Microsoft Cosmos DB for storage. Cosmos DB is a NoSQL database. The output of our visualization is shown on jupyter notebook.
+The data is stored in the cloud, we are using and instance of Microsoft Cosmos DB, a NoSQL database, for storage. The output of our visualization is shown on jupyter notebook.
 
 ## Visualization
 
 This section will contain visualizations of the data and the inferences we draw from them. This section will mostly be data analysis. Here are few questions we hope to answer with our analysis of the data.
 
 1. Category of storms in different latitude and longitude is visualized to identify the variation in category of storms in those location.
+*
 2. Category of storms in different regions is visualized to check the correlation between them.
 3. Correlation between Speed, pressure and category type is identified by visually analyzing them.
 4. Correlation between latitude, longitude and speed, pressure is to be explored.
