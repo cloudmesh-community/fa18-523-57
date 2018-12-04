@@ -28,6 +28,8 @@ With the disastrous effects of the increasing number of storms all around the wo
 
 The data set for the various storms in Asia Pacific region for the years between 1956 and 2017. We have chosen an initial subset of data to visualize locally and then implement the same visualizations on the entire data. The data set contains attributes like region, latitude, longitude, type of category, name, date and hour, speed, and pressure. There are more than 190,000 rows in the dataset. We clean the data for any duplicates, null values and any redundant data before we generate any visualizations.
 
+Our dataset contains five different regions surrounding the oceans like Indian Ocean, Atlantic Ocean, Southern Pacific Ocean, West Pacific Ocean, and Eastern Pacific Ocean and the regions are named according to the ocean covering the locations. We have four different storm types like S for Tropical Storms, H for Hurricanes, D for Depressions, and U for low pressure and high speed storms. 
+
 ### Related Work
 
 We have identified an earlier work on tropical storm data using R by Stoltzman consulting LLC and have used it as a base reference to visualize our data using Python [@fa18-523-57-related-work].
@@ -46,10 +48,15 @@ The data is stored in the cloud, we are using and instance of Microsoft Cosmos D
 
 This section will contain visualizations of the data and the inferences we draw from them. This section will mostly be data analysis. Here are few questions we hope to answer with our analysis of the data.
 
-1. We start with the basic relationship between the number of unique storms per Year.
+1. We start with the basic relationship between the number of unique storms per Year
   ![Unique Storms per Year](images/fa18_523_57_Storms_per_Year.PNG){#fig:storms_per_year}
-2. Number of storms per year per region.
+  We have plotted a linear relationship model between the number of storms and the storm year. We can see from the plot that the rate of increase number of unique storms through the years 2000 to 2010 and then reduce to the same rate as between the years 1950 to 1990. But, we cannot assume that the number of storms increased every year, we need to look at other factors such as correlation between other attributes describing the storms.
+2. Number of Storms per basin
+  ![Unique Storms per Region](images/fa18_523_57_Storms_per_Basin.png){#fig:storms_per_basin}
+  We plotted a horizontal bar graph between number of storms occured in each region
+2. Number of storms per year per region
   ![Unique Storms per Region](images/fa18_523_57_Storms_per_year_region.png){#fig:storms_per_year_per_region}
+  We took another step and plotted a bar graph between number of storms
 3. Number of storms per region per type of storm
   ![Unique Storms per Region](images/fa18_523_57_Storms_per_year_region_type.png){#fig:storms_year_region_type}
 4. Relationship between wind and pressure
