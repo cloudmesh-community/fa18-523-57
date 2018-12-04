@@ -1,7 +1,7 @@
 
 # Historical Storm Data Analysis with Cosmos DB
 
-| Authors: *Divya Rajendran, Pramod Duvvuri*
+| Authors: **Divya Rajendran, Pramod Duvvuri**
 
 This project is divided into two components. In the first part, we visualize and analyze the data. In the second part, we use various machine learning algorithms to predict the type of storm given the various features of it as input to our machine learning model.
 
@@ -62,13 +62,13 @@ This section will help setup a Microsoft Azure account and import data into the 
    $ mongoimport --host {host-name} -u {user-name} -p {primary-password} --ssl --sslAllowInvalidCertificates --db test --collection storm_data --type csv --file "./storm_data.csv" --headerline --numInsertionWorkers 4 --batchSize 24  
    ```
 
-    3.8. Please replace the placeholders with the relevant information of your instance and run the command in the directory where the data file *storm_data.csv* is located. This process will take a while and will output the status to the console. It tooks about 30 minutes to import the data from our machines to the the Cloud. The time depends on the Read Units (RUs) for our instance, RUs cost more money per the minute so the default number when we create an instance in Azure is 400. The highest we can use is 10,000 RUs but this is very costly and uses up our Azure credit. If the above process fails you might the code in the Jupyter notebook will throw errors.    
+    3.8. Please replace the placeholders with the relevant information of your instance and run the command in the directory where the data file *storm_data.csv* is located. This process will take a while and will output the status to the console. It tooks about 30 minutes to import the data from our machines to the the Cloud. The time depends on the Read Units (RUs) for our instance, RUs cost more money per the minute so the default number when we create an instance in Azure is 400. The highest we can use is 10,000 RUs but this is very costly and uses up our Azure credit. If the above process fails the code in the Jupyter notebook will throw errors.
 
    3.9. *This option must be used only as an alternative to run the code, we have commented out a line in Jupyter notebooks that connects to our csv data directly using a pandas read command this can also be used to run the code without setting up the Azure instance to connect and fetch the data*
 
 4. The authors used *virtualenv* to create a folder for the project and run the code, the *requirements.txt* file contains all the python packages required to run the code. This was create using the pip freeze command in the virtual environment.
 
-5. The following python packages need to be installed before we can run the code in the Jupyter Notebooks. To simplify this process we provide to options, the user can install using the requirements text file or run the commands in the CLI to install these packages separately.
+5. The following python packages need to be installed before we can run the code in the Jupyter Notebooks. To simplify this process we provide two options, the user can install using the requirements text file in the project-code directory or run the commands in the CLI to install these packages separately.
 
      ```bash
      $ pip install -r requirements.txt
