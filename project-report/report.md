@@ -46,8 +46,11 @@ The data is stored in the cloud, we are using and instance of Microsoft Cosmos D
 
 This section will contain visualizations of the data and the inferences we draw from them. This section will mostly be data analysis. Here are few questions we hope to answer with our analysis of the data.
 
+1. We start with the basic relationship between the number of unique storms per Year.
+* ![Unique Storms per Year](images/fa18_523_57_Storms_per_Year.PNG){#fig:fa18_523_57_storms_per_year}
+
 1. Category of storms in different latitude and longitude is visualized to identify the variation in category of storms in those location.
-*
+* ![Unique Storms per Year](images/from-one-to-the-other.png){#fig:fromonetotheorther}
 2. Category of storms in different regions is visualized to check the correlation between them.
 3. Correlation between Speed, pressure and category type is identified by visually analyzing them.
 4. Correlation between latitude, longitude and speed, pressure is to be explored.
