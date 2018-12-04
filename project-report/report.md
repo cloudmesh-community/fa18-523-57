@@ -53,10 +53,13 @@ This section will contain visualizations of the data and the inferences we draw 
 3. Number of storms per region per type of storm
   ![Unique Storms per Region](images/fa18_523_57_Storms_per_year_region_type.png){#fig:storms_year_region_type}
 4. Relationship between wind and pressure
+  ![Unique Storms per Region](images/fa18_523_57_pressure_speed_histogram.png){#fig:relation_wind_press_region}
 5. Correlation between Speed, pressure and category type is identified by visually analyzing them.
   ![Unique Storms per Region](images/fa18_523_57_pressure_speed_type_region.png){#fig:relation_wind_pressure_region}
 6. Scatter Plot of Altantic Ocean region.
-  <iframe src="images/fa18_523_57_scatterplot1.html"></iframe>
+  ![Unique Storms per Region](images/fa18_523_57_ScatterPlot_A.png){#fig:Scatter_Plot_Atlantic_Ocean}
+7. Heat Map of Easter Pacific region
+  ![Unique Storms per Region](images/fa18_523_57_HeatMapE.png){#fig:Heat_Map_Eastern_Pacific}
 
 ## Machine Learning
 
