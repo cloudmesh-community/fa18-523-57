@@ -51,7 +51,7 @@ This section will contain visualizations of the data and the inferences we draw 
 2. Number of storms per year per region.
    ![Unique Storms per Region](images/fa18_523_57_Storms_per_year_region.png){#fig:storms_per_year_per_region}
 3. Number of storms per region per type of storm
-   ![Unique Storms per Region](images/fa18_523_57_Storms_per_year_region_type.png){#fig:storms_per_year_per_region_per_type}
+   ![Unique Storms per Region](images/fa18_523_57_Storms_per_year_region_type.png){#fig:storms_year_region_type}
 4. Relationship between wind and pressure
    ![Unique Storms per Region](images/fa18_523_57_pressure_speed_histogram.png){#fig:relation_wind_pressure}
 5. Correlation between Speed, pressure and category type is identified by visually analyzing them.
