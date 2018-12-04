@@ -56,7 +56,7 @@ This section will contain visualizations of the data and the inferences we draw 
 5. Correlation between Speed, pressure and category type is identified by visually analyzing them.
   ![Unique Storms per Region](images/fa18_523_57_pressure_speed_type_region.png){#fig:relation_wind_pressure_region}
 6. Scatter Plot of Altantic Ocean region.
-  <link rel="html-import" href="images/fa18_523_57_scatterplot1.html" >
+  [mysite](images/fa18_523_57_scatterplot1.html)
 
 ## Machine Learning
 
