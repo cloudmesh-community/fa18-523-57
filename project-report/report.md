@@ -56,18 +56,10 @@ This section will contain visualizations of the data and the inferences we draw 
    ![Unique Storms per Region](images/fa18_523_57_Storms_per_year_region_type.png){#fig:storms_per_year_per_region_per_type}
 5. Relationship between wind and pressure
    ![Unique Storms per Region](images/fa18_523_57_pressure_speed_histogram.png){#fig:relation_wind_pressure}
-6. Effect of wind and pressure on different type of storms.
+6. Correlation between Speed, pressure and category type is identified by visually analyzing them.
    ![Unique Storms per Region](images/fa18_523_57_pressure_speed_type_region.png){#fig:relation_wind_pressure_region}
 7. Scatter Plot of Altantic Ocean region.
    ![Unique Storms per Region](images/fa18_523_57_scatterplot1.html){#fig:scatter_plot1}
-
-
-1. Category of storms in different latitude and longitude is visualized to identify the variation in category of storms in those location.
-* ![Unique Storms per Year](images/from-one-to-the-other.png){#fig:fromonetotheorther}
-2. Category of storms in different regions is visualized to check the correlation between them.
-3. Correlation between Speed, pressure and category type is identified by visually analyzing them.
-4. Correlation between latitude, longitude and speed, pressure is to be explored.
-5. Concentration of storms in different regions should be visually explored.
 
 ## Machine Learning
 
