@@ -37,16 +37,14 @@ We have identified an earlier work on tropical storm data using R by Stoltzman c
 ## Technologies Used
 
 1. Python is an object-oriented programming language we have utilized in this project [@fa18-523-57-Python].
-2. The data is being stored on an Microsoft Azure Cosmos DB [@fa18-523-57-Azure] instance and we will be using Mongo API to connect and retrieve the data.
+2. The data is being stored on an Microsoft Azure Cosmos DB [@fa18-523-57-Azure] instance and we will be using Mongo API to connect and retrieve the data. The data is stored in the cloud, we are using and instance of Microsoft Cosmos DB, a NoSQL database, for storage. The output of our visualization is shown on jupyter notebook.
 3. Matplotlib is a 2D visualization library containing a module plotly which gives us publication ready images and we aim to utilize this library to show basic correlation between attributes [@fa18-523-57-matplotlib].
 4. Seaborn is a visualization tool based on Matplotlib used to draw attractive statistical plots and we aim to show the change in number of storms per year and other advanced correlations between different attributes [@fa18-523-57-Seaborn].
 5. Folium is an interactive mapping tool which plots the data on a map based on the latitude and longitude values [@fa18-523-57-Folium].
 
-The data is stored in the cloud, we are using and instance of Microsoft Cosmos DB, a NoSQL database, for storage. The output of our visualization is shown on jupyter notebook.
-
 ## Visualization
 
-This section will contain visualizations of the data and the inferences we draw from them. This section will mostly be data analysis. Here are few questions we hope to answer with our analysis of the data.
+This section contains visualizations of the data and the inferences we draw from them and mostly contains our analysis and inferences from them. We attempt to answer a few research question through these visualizations.
 
 1. We start with the basic relationship between the number of unique storms per Year
 
@@ -77,16 +75,13 @@ This section will contain visualizations of the data and the inferences we draw 
     ![Correlation between speed, pressure and type of storm](images/fa18_523_57_pressure_speed_type_region.png){#fig:relation_wind_pressure_region}
 
     When we plotted the factted plot of wind speed, pressure and category of storm type we observed that the type "D- Depression" storms are of higher pressure and lower speed and storm type "U" is of lower pressure and higher speed. We also observed that the storms of type "S - Tropical Storms" are more prevalent in region "West Pacific Ocean" and are of lesser speeds when compared to other types of storms.
-7. Scatter Plot of Atlantic Ocean region
-
-    ![Scatter Plot of storm count in Atlantic Ocean region](images/fa18_523_57_ScatterPlot_A.png){#fig:Scatter_Plot_Atlantic_Ocean}
-
-    We have sub-sampled our data and plotted a scatter plot on a map to see the distribution of storms over the regions. We have created an interactive map, which can show us the scatter plot for different type of storms. The code for which is available in our jupyter notebook.
-8. Heat Map of Eastern Pacific region
+7. Heat Map of Eastern Pacific region
 
     ![Heat Map of Eastern Pacific Region](images/fa18_523_57_HeatMapE.png){#fig:Heat_Map_Eastern_Pacific}
 
     When we plotted a heat map for Eastern Pacific region, we see that the major portion of  storms are concentrated in the ocean itself and then as they make landfall the storms decrease in number.
+
+We have created an interactive map showing the distribution of different storm categories and regions. The interactive html files are available in our <> folder and code for the interactive maps is available in our jupyter notebook.
 
 ## Machine Learning
 
@@ -96,7 +91,7 @@ Multinomial Naive Bayes (MNB) is a simple classifier that uses the Bayes Theorem
 
 ## Summary
 
-This section will contain the inference and conclusions we draw after completing this project
+We identified that storms increased each year with different points of origination and that there were many storms in Western Pacific ocean region than in other regions. We have shown a
 
 ## Future Work
 
