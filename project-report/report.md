@@ -10,7 +10,7 @@
 
 ---
 
-Keywords: e534, fa18-523-57, fa18-523-58, [Data Visualization](fa18-523-57-58-DV), Data Analysis, Cosmos DB, [Machine Learning](#fa18-523-57-58-ML)
+Keywords: e534, fa18-523-57, fa18-523-58, [Data Visualization](#fa18-523-57-58-DV), Data Analysis, Cosmos DB, [Machine Learning](#fa18-523-57-58-ML)
 
 ---
 
