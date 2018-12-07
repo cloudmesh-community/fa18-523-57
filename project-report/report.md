@@ -139,9 +139,11 @@ After applying machine learning algorithms we saw that all the algorithms achiev
 
 In this project, our main aim was to only visualize the dataset and analyze these visualizations. We would like to identify and uncover more interesting patterns in our data. We hope to use unsupervised machine learning algorithms to find clusters in our data. This might help us identify further patterns in the data that could not have been possible with just plain visualization of the data. The main problem that we have identified in building such a model is the availability of resources required to run the algorithm without any interruption. Using local computer resources for running such a model would not be feasible. Hence, we hope to deploy such a model in the cloud and utilize its power and resources for running such algorithms.
 
+We would also like to build a model that is able to do forecasting. The data we have collected is from 1952-2008. We would like to explore the possibility of building a model that predicts areas that are more prone to such devastating hurricanes and storms. Ideally, we would like to split the above-mentioned 56-year data into two parts, train a model on one half and see if it is able to make accurate predictions about the storm and hurricanes in the second half.
+
 ## Acknowledgement
 
-The authors would like to thank Dr. Gregor von Laszewski for giving the opportunity to work on this project and for providing valuable feedback during the duration of our project. The authors would also like to thank the associate instructors of this class for their help and prompt responses to our questions on Piazza. The authors would also like to thank Microsoft for providing a free trial of Azure Cloud services.
+The authors would like to thank Dr. Gregor Von Laszewski for giving the opportunity to work on this project and for providing valuable feedback during the duration of our project. The authors would also like to thank Dr. Geoffrey Fox for providing feedback on the project report. The authors would also like to thank the Associate Instructors of this class for their help and prompt responses to our questions on Piazza. The authors would also like to thank Microsoft for providing a free trial of Azure Cloud services.
 
 ## Work Breakdown
 
