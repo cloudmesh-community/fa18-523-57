@@ -1,4 +1,4 @@
-# Historical Storm Data Analysis with Cosmos DB :smiley: fa18-523-57 fa18-523-58
+# Historical Storm Data Analysis with Cosmos DB
 
 
 | Divya Rajendran, Pramod Duvvuri
