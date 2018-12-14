@@ -9,8 +9,8 @@
 
 ---
 
-Keywords: [Deep Learning](#fa18-523-57-DeepLearning), gradient descents, Python, [Neural Networks](#fa18-523-57-NeuralNetworks), [Tensors](#fa18-523-57-Tensors), [Computational Graph](#fa18-523-57-ComputationalGraph),
-[Autograd](#fa18-523-57-Autograd), [Auto Differentiation](#fa18-523-57-AutoDifferentiation), [Backpropagation](#fa18-523-57-Backpropagation)
+Keywords: Deep Learning, gradient descents, Python, Neural Networks, Tensors, Computational Graph,
+Autograd, Auto Differentiation, Backpropagation
 
 ---
 
@@ -56,7 +56,7 @@ the loss function and calculate the gradients for loss function
 Before we start using PyTorch, we need to have a background or working knowledge
 on the below concepts.
 
-### <a name="fa18-523-57-DeepLearning"> Deep Learning </a>
+###  Deep Learning
 
 Deep Learning [@fa18-523-57-Deep-Learning-wiki] is a branch of Machine Learning
 which takes its inspiration from the function and structure of a human brain
@@ -67,7 +67,7 @@ It is being vastly used in different fields of computer vision, audio, and video
 signal processing, natural language and speech recognition and such
 [@fa18-523-57-Deep-Learning-wiki].
 
-### <a name="fa18-523-57-NeuralNetworks"> Neural Networks </a>
+### Neural Networks
 
 Neural Nets [@fa18-523-57-Neural-Nets] is a collection of various connected
 nodes called neurons mimicking the neuron structure in the human brain. Each
@@ -79,7 +79,7 @@ transforms the input in each layer and this entire process is repeated a huge
 number of times until the error calculated is diminished
 [@fa18-523-57-Neural-Nets].
 
-### <a name="fa18-523-57-Tensors"> Tensors </a>
+### Tensors
 
 Tensor [@fa18-523-57-Tensor] is an inbuilt data structure in PyTorch and can be
 defined as a matrix of matrices or can be defined as a multi-dimensional array
@@ -89,7 +89,7 @@ tensor, a tensor with 4 dimensions is called a 4-D tensor and so on
 computing process and calculation time on matrix operations when compared to
 existing NumPy's ndarrays [@fa18-523-57-PyTorch].
 
-### <a name="fa18-523-57-ComputationalGraph"> Computational Graph </a>
+### Computational Graph
 
 A computational graph [@fa18-523-57-graph] is an internal representation of the
 operations performed during the neural nets training. It is also called a data
@@ -98,20 +98,20 @@ nodes and edges, with nodes representing each operation and edges representing
 the values being sent from each operation from one layer to another layer in
 neural networks [@fa18-523-57-graph].
 
-### <a name="fa18-523-57-AutoDifferentiation"> Auto Differentiation </a>
+### Auto Differentiation
 
 Auto Differentiation [@fa18-523-57-Differentiation] is a series of techniques
 used to numerically calculate the derivative of the transformation and loss
 functions defined in our neural networks [@fa18-523-57-Differentiation].
 
-### <a name="fa18-523-57-Backpropagation"> Backpropagation </a>
+### Backpropagation
 
 Backpropagation [@fa18-523-57-Backpropagation] is a technique in neural
 networks which calculates the gradient values for the peaks and troughs of the
 loss function and send the error values obtained to the previous layer going in
 the reverse or backward direction [@fa18-523-57-Backpropagation].
 
-### <a name="fa18-523-57-Autograd"> Autograd </a>
+### Autograd
 
 Autograd [@fa18-523-57-Autograd] is a function in the *torch* library of PyTorch
 which calculates the gradients of the transformation and loss functions used in
